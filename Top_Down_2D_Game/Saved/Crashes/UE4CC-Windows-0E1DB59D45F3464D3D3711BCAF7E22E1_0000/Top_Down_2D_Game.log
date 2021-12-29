@@ -1,0 +1,1170 @@
+﻿Log file open, 12/28/21 01:32:57
+LogInit: Display: Running engine for game: Top_Down_2D_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.198115
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DataprepEditor
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.44.0
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 7 3700X 8-Core Processor             , GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:677][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:680][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:680][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.28-01.32.58:680][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.28-01.32.58:680][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:680][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.28-01.32.58:681][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.28-01.32.58:682][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.28-01.32.58:682][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.28-01.32.58:682][  0]LogHAL: Display: Platform has ~ 16 GB [17101832192 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.28-01.32.58:682][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.28-01.32.58:682][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.28-01.32.58:683][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.28-01.32.58:683][  0]LogInit: Computer: DESKTOP-5BGDD0J
+[2021.12.28-01.32.58:683][  0]LogInit: User: YOGI
+[2021.12.28-01.32.58:683][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.12.28-01.32.58:683][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.28-01.32.58:683][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.12.28-01.32.58:683][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.28-01.32.58:683][  0]LogMemory: Process Physical Memory: 120.51 MB used, 120.51 MB peak
+[2021.12.28-01.32.58:683][  0]LogMemory: Process Virtual Memory: 102.58 MB used, 102.58 MB peak
+[2021.12.28-01.32.58:683][  0]LogMemory: Physical Memory: 7290.09 MB used,  9019.49 MB free, 16309.58 MB total
+[2021.12.28-01.32.58:683][  0]LogMemory: Virtual Memory: 5228.92 MB used,  134212496.00 MB free, 134217728.00 MB total
+[2021.12.28-01.32.58:688][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.28-01.32.58:731][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.28-01.32.58:732][  0]LogInit: Using OS detected language (en-US).
+[2021.12.28-01.32.58:732][  0]LogInit: Using OS detected locale (en-GB).
+[2021.12.28-01.32.58:733][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.12.28-01.32.58:895][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.28-01.32.58:979][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.28-01.32.58:979][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.28-01.32.59:157][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.28-01.32.59:157][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.28-01.32.59:157][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.28-01.32.59:157][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.28-01.32.59:246][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2021.12.28-01.32.59:246][  0]LogD3D11RHI:       8079/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.12.28-01.32.59:248][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.28-01.32.59:248][  0]LogD3D11RHI:       0/0/8154 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.28-01.32.59:248][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.28-01.32.59:254][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.28-01.32.59:254][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.28-01.32.59:254][  0]LogWindows: EnumDisplayDevices:
+[2021.12.28-01.32.59:254][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2021.12.28-01.32.59:255][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2021.12.28-01.32.59:255][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.28-01.32.59:255][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2021.12.28-01.32.59:255][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.12.28-01.32.59:255][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2021.12.28-01.32.59:255][  0]LogD3D11RHI:   Driver Version: 497.09 (internal:30.0.14.9709, unified:497.09)
+[2021.12.28-01.32.59:255][  0]LogD3D11RHI:      Driver Date: 11-26-2021
+[2021.12.28-01.32.59:255][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2021.12.28-01.32.59:309][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.28-01.32.59:309][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.28-01.32.59:309][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.28-01.32.59:329][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.28-01.32.59:572][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.28-01.32.59:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.28-01.32.59:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.28-01.32.59:614][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.28-01.32.59:623][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.28-01.32.59:632][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.28-01.32.59:639][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.28-01.32.59:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.28-01.32.59:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.28-01.32.59:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.28-01.32.59:673][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.28-01.32.59:698][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.28-01.32.59:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.28-01.32.59:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.28-01.32.59:714][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.28-01.32.59:723][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.28-01.32.59:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.28-01.32.59:739][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.28-01.32.59:748][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.28-01.32.59:748][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.28-01.32.59:755][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.28-01.32.59:803][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Intermediate/Shaders/WorkingDirectory/4268/).
+[2021.12.28-01.32.59:804][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/YOGI/AppData/Local/Temp/UnrealShaderWorkingDir/F84064D84A16C0E662DFA889C31D2A33/'.
+[2021.12.28-01.32.59:804][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.28-01.32.59:804][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.28-01.32.59:804][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.28-01.33.00:427][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: Loaded boot cache 0.06s 95MB C:/Users/YOGI/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/YOGI/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.28-01.33.00:486][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.28-01.33.00:497][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.28-01.33.00:497][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.28-01.33.00:497][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.28-01.33.00:499][  0]LogDerivedDataCache: Using Local data cache path C:/Users/YOGI/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.28-01.33.00:499][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.28-01.33.00:499][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.28-01.33.00:547][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.28-01.33.00:547][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.28-01.33.00:568][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.12.28-01.33.00:778][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.28-01.33.00:872][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.28-01.33.00:872][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.28-01.33.00:872][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.28-01.33.00:872][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.28-01.33.00:872][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.28-01.33.00:887][  0]LogNetVersion: Top_Down_2D_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2660664877)
+[2021.12.28-01.33.01:273][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017B09A41C40), frame # 0
+[2021.12.28-01.33.01:273][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B099C47C0), frame # 0
+[2021.12.28-01.33.01:275][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B099F1E00), frame # 0
+[2021.12.28-01.33.01:328][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.047342 seconds
+[2021.12.28-01.33.01:334][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.28-01.33.01:334][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.28-01.33.01:334][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.28-01.33.01:654][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.28-01.33.01:659][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.28-01.33.01:728][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.01:728][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.01:732][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.01:734][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.01:741][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.02:027][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.02:027][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.02:027][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.28-01.33.02:047][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.28-01.33.02:047][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.28-01.33.02:089][  0]LogOcInput: OculusInput pre-init called
+[2021.12.28-01.33.02:292][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.02:293][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.02:293][  0]LogEngine: Initializing Engine...
+[2021.12.28-01.33.02:294][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.28-01.33.02:294][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.28-01.33.02:294][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.28-01.33.02:406][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.28-01.33.02:414][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.28-01.33.02:414][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B0F74DC00), frame # 0
+[2021.12.28-01.33.02:414][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B0F779E40), frame # 0
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.28-01.33.02:437][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.28-01.33.02:437][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.28-01.33.02:437][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.28-01.33.02:448][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.28-01.33.02:448][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.28-01.33.02:472][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (MH147)
+[2021.12.28-01.33.02:479][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.28-01.33.02:481][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.28-01.33.02:481][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.28-01.33.02:483][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.28-01.33.02:484][  0]LogInit: FAudioDevice initialized.
+[2021.12.28-01.33.02:485][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.28-01.33.02:912][  0]LogDerivedDataCache: Saved boot cache 0.43s 95MB C:/Users/YOGI/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.28-01.33.02:912][  0]LogInit: Texture streaming: Enabled
+[2021.12.28-01.33.02:928][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.28-01.33.02:928][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.28-01.33.02:929][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.28-01.33.02:968][  0]LogInit: Transaction tracking system initialized
+[2021.12.28-01.33.02:989][  0]BlueprintLog: New page: Editor Load
+[2021.12.28-01.33.03:055][  0]LocalizationService: Localization service is disabled
+[2021.12.28-01.33.03:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.28-01.33.03:190][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.28-01.33.03:302][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/' took 0.00s
+[2021.12.28-01.33.03:452][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.03:452][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.28-01.33.03:452][  0]SourceControl: Source control is disabled
+[2021.12.28-01.33.03:452][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.910
+[2021.12.28-01.33.03:452][  0]Cmd: MAP LOAD FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.28-01.33.03:453][  0]LightingResults: New page: Lighting Build
+[2021.12.28-01.33.03:453][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.33.03:453][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.33.03:453][  0]MapCheck: New page: Map Check
+[2021.12.28-01.33.03:453][  0]LightingResults: New page: Lighting Build
+[2021.12.28-01.33.03:495][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B0F74DC00), frame # 0
+[2021.12.28-01.33.03:495][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B0F779E40), frame # 0
+[2021.12.28-01.33.03:495][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.28-01.33.03:559][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:559][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:562][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:562][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:582][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:582][  0]LoadErrors: Failed to load /Game/MapFiles/Maps/TheMap_BuiltData.TheMap_BuiltData Referenced by PersistentLevel
+[2021.12.28-01.33.03:582][  0]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.33.03:582][  0]LoadErrors: Failed to load /Game/MapFiles/Maps/TheMap_BuiltData.TheMap_BuiltData Referenced by PersistentLevel
+[2021.12.28-01.33.03:634][  0]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.33.03:634][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B0110FE00), frame # 0
+[2021.12.28-01.33.03:634][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B01192340), frame # 0
+[2021.12.28-01.33.03:643][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.28-01.33.03:677][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2021.12.28-01.33.03:677][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.28-01.33.03:678][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.213ms to complete.
+[2021.12.28-01.33.03:678][  0]LogFileHelpers: Loading map 'TheMap' took 0.226
+[2021.12.28-01.33.03:679][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.137
+[2021.12.28-01.33.03:780][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.33.03:788][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.33.03:796][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.33.03:802][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.33.03:808][  0]LogCollectionManager: Loaded 0 collections in 0.000770 seconds
+[2021.12.28-01.33.03:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Collections/' took 0.00s
+[2021.12.28-01.33.03:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Developers/YOGI/Collections/' took 0.00s
+[2021.12.28-01.33.03:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Collections/' took 0.00s
+[2021.12.28-01.33.03:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3582 classes and 855 folders.
+[2021.12.28-01.33.03:825][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.28-01.33.03:899][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.28-01.33.03:900][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.12.28-01.33.03:924][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.28-01.33.03:925][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.28-01.33.03:929][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.28-01.33.03:984][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.12.28-01.33.04:081][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.28-01.33.04:081][  0]LogLoad: (Engine Initialization) Total time: 7.54 seconds
+[2021.12.28-01.33.04:081][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.28-01.33.04:115][  0]LogAssetRegistry: Asset discovery search completed in 3.5486 seconds
+[2021.12.28-01.33.04:118][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.12.28-01.33.04:120][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.28-01.33.04:173][  0]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.28-01.33.04:177][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.28-01.33.05:702][175]LogSlate: Window 'Message Log' being destroyed
+[2021.12.28-01.33.05:706][175]LogSlate: Window 'Message Log' being destroyed
+[2021.12.28-01.33.14:659][236]LogSlate: Took 0.000194 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.28-01.33.14:783][236]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/Main_Menu.Main_Menu
+[2021.12.28-01.33.14:795][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2021.12.28-01.33.14:796][236]Cmd: MAP LOAD FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.28-01.33.14:797][236]LightingResults: New page: Lighting Build
+[2021.12.28-01.33.14:797][236]LoadErrors: New page: Loading map: Main_Menu.umap
+[2021.12.28-01.33.14:797][236]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.33.14:797][236]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.33.14:797][236]MapCheck: New page: Map Check
+[2021.12.28-01.33.14:798][236]LightingResults: New page: Lighting Build
+[2021.12.28-01.33.14:813][236]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B0110FE00), frame # 1236
+[2021.12.28-01.33.14:813][236]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B01192340), frame # 1236
+[2021.12.28-01.33.14:814][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.12.28-01.33.14:816][236]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.28-01.33.14:816][236]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.28-01.33.14:816][236]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B20DB8E00), frame # 1236
+[2021.12.28-01.33.14:816][236]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B01FC9BC0), frame # 1236
+[2021.12.28-01.33.14:827][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.12.28-01.33.14:842][236]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.28-01.33.14:842][236]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.122ms to complete.
+[2021.12.28-01.33.14:842][236]LogFileHelpers: Loading map 'Main_Menu' took 0.045
+[2021.12.28-01.33.19:510][789]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.33.19:672][789]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2021.12.28-01.33.20:682][789]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.28-01.33.25:263][328]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.28-01.35.27:995][596]BlueprintLog: New page: Compile Pause_Menu_Widget
+[2021.12.28-01.35.28:046][596]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.12.28-01.35.28:458][637]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Pause_Menu_WidgetBF6C31684E7ACB6605923EAD20B671E8.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Pause_Menu/Pause_Menu_Widget.uasset'
+[2021.12.28-01.35.28:471][637]AssetCheck: New page: Asset Save: Pause_Menu_Widget
+[2021.12.28-01.35.28:471][637]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE8F4E13-4B9B-9521-A3E6-87A683AD1A63%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6923b79d46875f529d28c39cd101b6e8%7Cd4f1a98da55c46359111f6b2102c44f8%7C326246ed-cfe2-4d1c-8e6a-b2a811ce3f62&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: request failed, libcurl error: 0 (No error)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x17b65087f70 [can pipeline])
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 1 (Re-using existing connection! (#1) with host datarouter.ol.epicgames.com)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.206.28.137) port 443 (#1))
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 7 (Closing connection 1)
+[2021.12.28-01.37.14:870][217]LogHttp: Warning: 0000017B337E0800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.12.28-01.37.15:203][218]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCE8F4E13-4B9B-9521-A3E6-87A683AD1A63%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=6923b79d46875f529d28c39cd101b6e8%7Cd4f1a98da55c46359111f6b2102c44f8%7C326246ed-cfe2-4d1c-8e6a-b2a811ce3f62&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.12.28-01.37.51:471][987]BlueprintLog: New page: Compile Pause_Menu_Widget
+[2021.12.28-01.37.51:502][987]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.12.28-01.37.51:539][988]BlueprintLog: New page: Compile Pause_Menu_Widget
+[2021.12.28-01.37.51:568][988]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.12.28-01.37.52:092][ 43]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Pause_Menu_Widget169D7B10478E3B6EE82DBAAB7EB4F378.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Pause_Menu/Pause_Menu_Widget.uasset'
+[2021.12.28-01.37.52:105][ 43]AssetCheck: New page: Asset Save: Pause_Menu_Widget
+[2021.12.28-01.37.52:105][ 43]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.37.52:238][ 55]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Pause_Menu_WidgetD5271F834DC6E1284E1D409A30FC7F91.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Pause_Menu/Pause_Menu_Widget.uasset'
+[2021.12.28-01.37.52:248][ 55]AssetCheck: New page: Asset Save: Pause_Menu_Widget
+[2021.12.28-01.37.52:248][ 55]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.38.09:319][670]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.28-01.39.43:130][ 97]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.28-01.39.43:138][ 97]LogSlate: Window 'Project Settings' being destroyed
+[2021.12.28-01.41.35:665][845]LogEditorTransaction: Undo Change Object Pin Value
+[2021.12.28-01.41.36:491][905]LogEditorTransaction: Undo Change Object Pin Value
+[2021.12.28-01.41.52:405][657]LogEditorTransaction: Undo Create Pin Link
+[2021.12.28-01.47.44:407][737]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.28-01.47.44:498][737]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.12.28-01.47.45:288][817]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/ThirdPersonCharacter089C166C44F46B23DD2289B434A3DC77.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.28-01.47.45:304][817]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.28-01.47.45:304][817]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.28-01.48.06:614][207]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.28-01.48.06:674][207]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2021.12.28-01.48.07:324][263]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/ThirdPersonCharacter33CC423440E3C1D8824E8F878723B0F8.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.28-01.48.07:340][263]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.28-01.48.07:340][263]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.28-01.48.09:292][478]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.28-01.48.09:302][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.28-01.48.09:302][478]PIE: New page: PIE session: Main_Menu (28 Dec 2021, 01:48:09)
+[2021.12.28-01.48.09:303][478]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.28-01.48.09:304][478]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.28-01.48.09:304][478]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.09:305][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000860s)
+[2021.12.28-01.48.09:305][478]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.28-01.48.09:305][478]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BAF9B3200), frame # 82478
+[2021.12.28-01.48.09:305][478]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B895FE0C0), frame # 82478
+[2021.12.28-01.48.09:306][478]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2021.12.28-01.48.09:306][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/Main_Menu.Main_Menu to /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001873s)
+[2021.12.28-01.48.09:337][478]LogUObjectHash: Compacting FUObjectHashTables data took   5.27ms
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.28-01.48.09:339][478]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.28-01.48.09:339][478]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.28-01.48.09:339][478]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.28-01.48.09:341][478]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.28-01.48.09:341][478]LogAudioMixer: Display: 1: FrontRight
+[2021.12.28-01.48.09:353][478]LogAudioMixer: Display: Using Audio Device Headset Earphone (MH147)
+[2021.12.28-01.48.09:353][478]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.28-01.48.09:353][478]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.28-01.48.09:353][478]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.28-01.48.09:353][478]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.28-01.48.09:363][478]LogInit: FAudioDevice initialized.
+[2021.12.28-01.48.09:369][478]LogLoad: Game class is 'Main_Menu_GameMode_C'
+[2021.12.28-01.48.09:369][478]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.12.28-01.48.09
+[2021.12.28-01.48.09:369][478]LogWorld: Bringing up level for play took: 0.000239
+[2021.12.28-01.48.09:369][478]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.12.28-01.48.09:396][478]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.12.28-01.48.09:398][478]PIE: Server logged in
+[2021.12.28-01.48.09:399][478]PIE: Play in editor total start time 0.097 seconds.
+[2021.12.28-01.48.10:293][550]LogNet: Browse: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.10:293][550]LogLoad: LoadMap: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.10:293][550]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.10:294][550]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.48.10:294][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.10:365][550]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B895FE0C0), frame # 82550
+[2021.12.28-01.48.10:365][550]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BAF9B3200), frame # 82550
+[2021.12.28-01.48.10:391][550]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2021.12.28-01.48.10:394][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:394][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:395][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:395][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:411][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:411][550]LoadErrors: Failed to load /Game/MapFiles/Maps/TheMap_BuiltData.TheMap_BuiltData Referenced by PersistentLevel
+[2021.12.28-01.48.10:411][550]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.10:451][550]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.48.10:451][550]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BA5655200), frame # 82550
+[2021.12.28-01.48.10:451][550]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B895FE200), frame # 82550
+[2021.12.28-01.48.10:803][550]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.28-01.48.10:809][550]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.28-01.48.10
+[2021.12.28-01.48.10:809][550]LogWorld: Bringing up level for play took: 0.005184
+[2021.12.28-01.48.10:810][550]LogLoad: Took 0.516841 seconds to LoadMap(/Game/MapFiles/Maps/TheMap)
+[2021.12.28-01.48.26:288][399]LogNet: Browse: /Game/MapFiles/Maps/Main_Menu
+[2021.12.28-01.48.26:288][399]LogLoad: LoadMap: /Game/MapFiles/Maps/Main_Menu
+[2021.12.28-01.48.26:288][399]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.28-01.48.26:289][399]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.48.26:289][399]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.26:357][399]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B895FE200), frame # 84399
+[2021.12.28-01.48.26:357][399]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BA5655200), frame # 84399
+[2021.12.28-01.48.26:378][399]LogUObjectHash: Compacting FUObjectHashTables data took   5.45ms
+[2021.12.28-01.48.26:381][399]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.26:382][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000893s)
+[2021.12.28-01.48.26:383][399]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.28-01.48.26:383][399]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BABCF1E00), frame # 84399
+[2021.12.28-01.48.26:383][399]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BA555DA80), frame # 84399
+[2021.12.28-01.48.26:383][399]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2021.12.28-01.48.26:383][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/Main_Menu.Main_Menu to /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001879s)
+[2021.12.28-01.48.26:383][399]LogLoad: Game class is 'Main_Menu_GameMode_C'
+[2021.12.28-01.48.26:384][399]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.12.28-01.48.26
+[2021.12.28-01.48.26:384][399]LogWorld: Bringing up level for play took: 0.000211
+[2021.12.28-01.48.26:384][399]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.28-01.48.26:386][399]LogLoad: Took 0.097707 seconds to LoadMap(/Game/MapFiles/Maps/UEDPIE_0_Main_Menu)
+[2021.12.28-01.48.27:416][522]LogNet: Browse: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.27:416][522]LogLoad: LoadMap: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.27:416][522]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.27:417][522]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.48.27:417][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.27:486][522]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BA555DA80), frame # 84522
+[2021.12.28-01.48.27:486][522]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BABCF1E00), frame # 84522
+[2021.12.28-01.48.27:490][522]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2021.12.28-01.48.27:493][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:493][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:494][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:494][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:510][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:510][522]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.27:544][522]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.48.27:544][522]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B7F0E5200), frame # 84522
+[2021.12.28-01.48.27:544][522]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B3E1F7EC0), frame # 84522
+[2021.12.28-01.48.27:544][522]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.28-01.48.27:550][522]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.28-01.48.27
+[2021.12.28-01.48.27:550][522]LogWorld: Bringing up level for play took: 0.005698
+[2021.12.28-01.48.27:551][522]LogLoad: Took 0.135055 seconds to LoadMap(/Game/MapFiles/Maps/TheMap)
+[2021.12.28-01.48.30:904][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.48.30:907][920]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.28-01.48.30:907][920]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.48.30:908][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.30:917][920]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.28-01.48.30:922][920]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.30:946][920]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.48.30:962][920]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B3E1F7EC0), frame # 84920
+[2021.12.28-01.48.30:962][920]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B7F0E5200), frame # 84920
+[2021.12.28-01.48.30:966][920]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.12.28-01.48.30:999][921]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.12.28-01.48.56:043][429]BlueprintLog: New page: Compile Pause_Menu_Widget
+[2021.12.28-01.48.56:089][429]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2021.12.28-01.48.56:632][479]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Pause_Menu_WidgetBC9435A3456811138E01E7BD18264947.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Pause_Menu/Pause_Menu_Widget.uasset'
+[2021.12.28-01.48.56:646][479]AssetCheck: New page: Asset Save: Pause_Menu_Widget
+[2021.12.28-01.48.56:646][479]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menu/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.48.58:818][728]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.28-01.48.58:829][728]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.28-01.48.58:829][728]PIE: New page: PIE session: Main_Menu (28 Dec 2021, 01:48:58)
+[2021.12.28-01.48.58:855][728]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.58:856][728]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001176s)
+[2021.12.28-01.48.58:857][728]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.28-01.48.58:857][728]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BA48B5000), frame # 87728
+[2021.12.28-01.48.58:857][728]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BA12D5080), frame # 87728
+[2021.12.28-01.48.58:857][728]LogPlayLevel: PIE: World Init took: (0.001058s)
+[2021.12.28-01.48.58:857][728]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/Main_Menu.Main_Menu to /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.002357s)
+[2021.12.28-01.48.58:887][728]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.28-01.48.58:889][728]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.28-01.48.58:889][728]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.28-01.48.58:890][728]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.28-01.48.58:890][728]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.28-01.48.58:891][728]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.28-01.48.58:891][728]LogAudioMixer: Display: 1: FrontRight
+[2021.12.28-01.48.58:901][728]LogAudioMixer: Display: Using Audio Device Headset Earphone (MH147)
+[2021.12.28-01.48.58:901][728]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.28-01.48.58:901][728]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.28-01.48.58:901][728]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.28-01.48.58:901][728]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.28-01.48.58:912][728]LogInit: FAudioDevice initialized.
+[2021.12.28-01.48.58:921][728]LogLoad: Game class is 'Main_Menu_GameMode_C'
+[2021.12.28-01.48.58:921][728]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.12.28-01.48.58
+[2021.12.28-01.48.58:921][728]LogWorld: Bringing up level for play took: 0.000223
+[2021.12.28-01.48.58:921][728]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.12.28-01.48.58:924][728]PIE: Server logged in
+[2021.12.28-01.48.58:924][728]PIE: Play in editor total start time 0.097 seconds.
+[2021.12.28-01.48.59:613][810]LogNet: Browse: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.59:613][810]LogLoad: LoadMap: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.48.59:613][810]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.48.59:614][810]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.48.59:614][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.48.59:660][810]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BA12D5080), frame # 87810
+[2021.12.28-01.48.59:660][810]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BA48B5000), frame # 87810
+[2021.12.28-01.48.59:665][810]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.12.28-01.48.59:669][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:669][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:670][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:670][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:686][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:686][810]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.48.59:720][810]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.48.59:720][810]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BABD99200), frame # 87810
+[2021.12.28-01.48.59:720][810]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BD37B2480), frame # 87810
+[2021.12.28-01.48.59:720][810]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.28-01.48.59:725][810]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.28-01.48.59
+[2021.12.28-01.48.59:725][810]LogWorld: Bringing up level for play took: 0.004949
+[2021.12.28-01.48.59:727][810]LogLoad: Took 0.113649 seconds to LoadMap(/Game/MapFiles/Maps/TheMap)
+[2021.12.28-01.49.03:862][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.49.03:863][304]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.28-01.49.03:906][304]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.49.03:906][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.49.03:916][304]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.28-01.49.03:921][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.49.03:960][304]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.49.03:961][304]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BD37B2480), frame # 88304
+[2021.12.28-01.49.03:961][304]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BABD99200), frame # 88304
+[2021.12.28-01.49.03:965][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2021.12.28-01.49.03:997][305]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.12.28-01.49.06:068][548]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.28-01.49.06:077][548]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.28-01.49.06:077][548]PIE: New page: PIE session: Main_Menu (28 Dec 2021, 01:49:06)
+[2021.12.28-01.49.06:106][548]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.49.06:107][548]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000881s)
+[2021.12.28-01.49.06:108][548]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.28-01.49.06:108][548]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BA4237400), frame # 88548
+[2021.12.28-01.49.06:108][548]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017BAEED96C0), frame # 88548
+[2021.12.28-01.49.06:108][548]LogPlayLevel: PIE: World Init took: (0.000950s)
+[2021.12.28-01.49.06:108][548]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/Main_Menu.Main_Menu to /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.001930s)
+[2021.12.28-01.49.06:135][548]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.28-01.49.06:136][548]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.28-01.49.06:136][548]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.28-01.49.06:137][548]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.28-01.49.06:137][548]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.28-01.49.06:140][548]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.28-01.49.06:140][548]LogAudioMixer: Display: 1: FrontRight
+[2021.12.28-01.49.06:151][548]LogAudioMixer: Display: Using Audio Device Headset Earphone (MH147)
+[2021.12.28-01.49.06:151][548]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.28-01.49.06:151][548]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.28-01.49.06:151][548]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.28-01.49.06:152][548]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.28-01.49.06:161][548]LogInit: FAudioDevice initialized.
+[2021.12.28-01.49.06:173][548]LogLoad: Game class is 'Main_Menu_GameMode_C'
+[2021.12.28-01.49.06:173][548]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 0) at 2021.12.28-01.49.06
+[2021.12.28-01.49.06:173][548]LogWorld: Bringing up level for play took: 0.000235
+[2021.12.28-01.49.06:173][548]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.12.28-01.49.06:176][548]PIE: Server logged in
+[2021.12.28-01.49.06:177][548]PIE: Play in editor total start time 0.1 seconds.
+[2021.12.28-01.49.06:879][632]LogNet: Browse: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.49.06:879][632]LogLoad: LoadMap: /Game/MapFiles/Maps/TheMap
+[2021.12.28-01.49.06:879][632]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_Main_Menu
+[2021.12.28-01.49.06:879][632]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.49.06:880][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.49.06:932][632]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017BAEED96C0), frame # 88632
+[2021.12.28-01.49.06:932][632]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BA4237400), frame # 88632
+[2021.12.28-01.49.06:935][632]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.12.28-01.49.06:938][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:939][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:939][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:939][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:956][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:956][632]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.49.06:988][632]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.49.06:989][632]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BAB9D7600), frame # 88632
+[2021.12.28-01.49.06:989][632]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B288896C0), frame # 88632
+[2021.12.28-01.49.06:989][632]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.28-01.49.06:995][632]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.28-01.49.06
+[2021.12.28-01.49.06:995][632]LogWorld: Bringing up level for play took: 0.006364
+[2021.12.28-01.49.06:997][632]LogLoad: Took 0.118294 seconds to LoadMap(/Game/MapFiles/Maps/TheMap)
+[2021.12.28-01.49.08:226][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.49.08:226][774]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.28-01.49.08:227][774]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.49.08:227][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.49.08:233][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.28-01.49.08:238][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.49.08:263][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.28-01.49.08:289][774]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B288896C0), frame # 88774
+[2021.12.28-01.49.08:289][774]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017BAB9D7600), frame # 88774
+[2021.12.28-01.49.08:293][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.12.28-01.49.08:315][775]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.12.28-01.50.57:597][999]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/Sprite_TestMap.Sprite_TestMap
+[2021.12.28-01.50.57:627][999]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.12.28-01.50.57:633][999]Cmd: MAP LOAD FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/Sprite_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.28-01.50.57:633][999]LightingResults: New page: Lighting Build
+[2021.12.28-01.50.57:634][999]LoadErrors: New page: Loading map: Sprite_TestMap.umap
+[2021.12.28-01.50.57:681][999]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.50.57:681][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.50.57:681][999]MapCheck: New page: Map Check
+[2021.12.28-01.50.57:681][999]LightingResults: New page: Lighting Build
+[2021.12.28-01.50.57:706][999]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B01FC9BC0), frame # 100999
+[2021.12.28-01.50.57:706][999]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B20DB8E00), frame # 100999
+[2021.12.28-01.50.57:710][999]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2021.12.28-01.50.57:714][999]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.28-01.50.57:714][999]LogAIModule: Creating AISystem for world Sprite_TestMap
+[2021.12.28-01.50.57:714][999]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017B20DB9200), frame # 100999
+[2021.12.28-01.50.57:714][999]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B2B30D1C0), frame # 100999
+[2021.12.28-01.50.57:744][999]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2021.12.28-01.50.57:759][999]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.28-01.50.57:760][999]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.121ms to complete.
+[2021.12.28-01.50.57:760][999]LogFileHelpers: Loading map 'Sprite_TestMap' took 0.127
+[2021.12.28-01.50.59:667][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:667][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:668][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:668][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:684][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:684][221]LoadErrors: Failed to load /Game/MapFiles/Maps/TheMap_BuiltData.TheMap_BuiltData Referenced by PersistentLevel
+[2021.12.28-01.50.59:684][221]LogLinker: Warning: While loading 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap' failed to load '/Game/MapFiles/Maps/TheMap_BuiltData': Can't find file.
+[2021.12.28-01.50.59:712][221]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/TheMap.TheMap
+[2021.12.28-01.50.59:741][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.12.28-01.50.59:743][221]Cmd: MAP LOAD FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.28-01.50.59:743][221]LightingResults: New page: Lighting Build
+[2021.12.28-01.50.59:743][221]LoadErrors: New page: Loading map: TheMap.umap
+[2021.12.28-01.50.59:743][221]LogWorld: UWorld::CleanupWorld for Sprite_TestMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.50.59:743][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.50.59:743][221]MapCheck: New page: Map Check
+[2021.12.28-01.50.59:743][221]LightingResults: New page: Lighting Build
+[2021.12.28-01.50.59:767][221]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017B2B30D1C0), frame # 101221
+[2021.12.28-01.50.59:767][221]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017B20DB9200), frame # 101221
+[2021.12.28-01.50.59:771][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.12.28-01.50.59:778][221]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.28-01.50.59:778][221]LogAIModule: Creating AISystem for world TheMap
+[2021.12.28-01.50.59:778][221]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017BABC61A00), frame # 101221
+[2021.12.28-01.50.59:788][221]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017B2B3CBC40), frame # 101221
+[2021.12.28-01.50.59:821][221]LogUObjectHash: Compacting FUObjectHashTables data took   3.78ms
+[2021.12.28-01.50.59:837][221]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.28-01.50.59:837][221]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.13ms to complete.
+[2021.12.28-01.50.59:837][221]LogFileHelpers: Loading map 'TheMap' took 0.094
+[2021.12.28-01.51.13:421][790]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.12.28-01.51.13:425][790]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.12.28-01.51.13:429][790]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.51.13:429][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.51.13:445][790]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.51.13:445][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.51.13:506][790]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.28-01.51.13:506][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.Main_Menu_PC_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.Main_Menu_PC:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.Main_Menu_PC:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.Main_Menu_PC:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.SKEL_Main_Menu_PC_C:ReceiveBeginPlay' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.SKEL_Main_Menu_PC_C:ReceiveTick' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.SKEL_Main_Menu_PC_C:UserConstructionScript' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:356][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_PC.SKEL_Main_Menu_PC_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_PC.PackageMetaData'
+[2021.12.28-01.51.29:362][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget_C' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:BndEvt__ExitToDesktop_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:BndEvt__ExitToMainMenu_K2Node_ComponentBoundEvent_2_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:BndEvt__ExitButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:BndEvt__Resume_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:Tick' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:Construct' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:363][625]LogMetaData: Removing '/Game/Menus/Pause_Menu/Pause_Menu_Widget.SKEL_Pause_Menu_Widget_C:PreConstruct' ref from Metadata '/Game/Menu/Pause_Menu/Pause_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:371][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_GameMode.Main_Menu_GameMode_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_GameMode.PackageMetaData'
+[2021.12.28-01.51.29:371][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_GameMode.SKEL_Main_Menu_GameMode_C:UserConstructionScript' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_GameMode.PackageMetaData'
+[2021.12.28-01.51.29:371][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_GameMode.SKEL_Main_Menu_GameMode_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_GameMode.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.Main_Menu_Widget_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.Main_Menu_Widget:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.Main_Menu_Widget:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.Main_Menu_Widget:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C:PreConstruct' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C:Construct' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C:Tick' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C:BndEvt__StartButton_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:395][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C:BndEvt__ExitButton_K2Node_ComponentBoundEvent_1_OnButtonClickedEvent__DelegateSignature' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:396][625]LogMetaData: Removing '/Game/Menus/Main_Menu/Main_Menu_Widget.SKEL_Main_Menu_Widget_C' ref from Metadata '/Game/Menu/Main_Menu/Main_Menu_Widget.PackageMetaData'
+[2021.12.28-01.51.29:458][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_PC4F7B7EAD4BC62BDEFAB1E9ABDA8FFF02.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu/Main_Menu_PC.uasset'
+[2021.12.28-01.51.29:473][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Pause_Menu_Widget285D1FFD43FA491C2378FDA54315C3D2.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Pause_Menu/Pause_Menu_Widget.uasset'
+[2021.12.28-01.51.29:480][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_GameMode7A27250D48C2A16CC11F8289B64BD555.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu/Main_Menu_GameMode.uasset'
+[2021.12.28-01.51.29:495][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_GameMode0C424FE64C683300BC6F7A881E83DDB7.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Main_Menu/Main_Menu_GameMode.uasset'
+[2021.12.28-01.51.29:500][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/button_bg8DFFCFE149FA059532489CA263591B5F.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Menu_Assets/button_bg.uasset'
+[2021.12.28-01.51.29:504][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/Menu_Assets/menu" FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Menu_Assets/menu.uasset" SILENT=true
+[2021.12.28-01.51.29:509][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/menu3D51A5E742F8F857A0AA4B9EA63149B3.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Menu_Assets/menu.uasset'
+[2021.12.28-01.51.29:527][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_Widget6E9A48414FAE6BDD24827B861DFD3452.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu/Main_Menu_Widget.uasset'
+[2021.12.28-01.51.29:542][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_Widget3A9760E44B2029393A708B96D665FBDC.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menu/Main_Menu/Main_Menu_Widget.uasset'
+[2021.12.28-01.51.29:545][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Default__Main_Menu_GameMode_C5421E8F149B74F5DD824D8B6719D20A6.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Default__Main_Menu_GameMode_C.uasset'
+[2021.12.28-01.51.29:548][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_GameMode2AD5E6704195BE7AEBEE5EA315810C4C.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu_GameMode.uasset'
+[2021.12.28-01.51.29:551][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_GameMode_C7877090B47295A6283187A92582E99BC.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu_GameMode_C.uasset'
+[2021.12.28-01.51.29:554][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Default__Main_Menu_Widget_C370F59DE482516A666204981943179C7.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Default__Main_Menu_Widget_C.uasset'
+[2021.12.28-01.51.29:555][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/Main_Menu_Widget" FILE="C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu_Widget.uasset" SILENT=true
+[2021.12.28-01.51.29:556][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_Widget737ADFE243EE9EE7D4E839850F777961.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu_Widget.uasset'
+[2021.12.28-01.51.29:559][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/Main_Menu_Widget_C5C9D840D4ECC6CF6DECA68B1B59AF525.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/Menus/Main_Menu_Widget_C.uasset'
+[2021.12.28-01.51.30:374][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.12.28-01.51.30:440][625]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.12.28-01.51.30:452][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2021.12.28-01.51.30:464][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.12.28-01.51.30:477][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.12.28-01.51.30:490][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.12.28-01.51.30:507][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.12.28-01.51.30:520][625]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.12.28-01.51.30:582][625]LogSavePackage: Moving 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Saved/ThirdPersonCharacter7A941C224762B868320291849A3E0AEE.tmp' to 'C:/Users/YOGI/Documents/GitHub/2122-yr1-team-omegalulv2-Mikes-Branch/Top_Down_2D_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.28-01.51.30:683][625]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating Blueprint /Game/Menus/Main_Menu/Main_Menu_PC.Main_Menu_PC
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menus/Pause_Menu/Pause_Menu_Widget.Pause_Menu_Widget
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating Blueprint /Game/Menus/Main_Menu/Main_Menu_GameMode.Main_Menu_GameMode
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_GameMode.Main_Menu_GameMode
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_GameMode.Default__Main_Menu_GameMode_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_GameMode.Main_Menu_GameMode_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating Texture2D /Game/Menus/Menu_Assets/button_bg.button_bg
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating Texture2D /Game/Menus/Menu_Assets/menu.menu
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menus/Main_Menu/Main_Menu_Widget.Main_Menu_Widget
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_Widget.Default__Main_Menu_Widget_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_Widget.Main_Menu_Widget_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menu/Main_Menu/Main_Menu_Widget.Main_Menu_Widget
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Default__Main_Menu_GameMode_C.Default__Main_Menu_GameMode_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Main_Menu_GameMode.Main_Menu_GameMode
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Main_Menu_GameMode_C.Main_Menu_GameMode_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Default__Main_Menu_Widget_C.Default__Main_Menu_Widget_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Main_Menu_Widget.Main_Menu_Widget
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating ObjectRedirector /Game/Menus/Main_Menu_Widget_C.Main_Menu_Widget_C
+[2021.12.28-01.51.30:683][625]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.28-01.51.38:348][519]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2021.12.28-01.51.38:744][519]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.396 s
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: === Handled ensure: ===
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: 
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: Ensure condition failed: Found [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 201]
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: Cannot remove redirection from /Game/Menus/Main_Menu_GameMode.Main_Menu_GameMode, it was not registered
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: Stack: 
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc2481bfc8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc244306b1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc313ed25e UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc20b5a441 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbdc0e8b8e UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbdc094816 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbdc101592 UE4Editor-AssetTools.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe66fb012 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe6891f5e UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe688cf0f UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe68909af UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe66bcdf0 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffbe66bcfee UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23f8ab85 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23f91320 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23f6a937 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc2400207e UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc2401b27e UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23f92a95 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23e62dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23ee69cf UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23ecf4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc23ec2392 UE4Editor-Slate.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc47167f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc47155c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc4716a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc471517d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc72a4e7e8 USER32.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc72a4e229 USER32.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc4716bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ff79fa668c4 UE4Editor.exe!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ff79fa7ba7c UE4Editor.exe!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ff79fa7bb5a UE4Editor.exe!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ff79fa8e31d UE4Editor.exe!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ff79fa9145a UE4Editor.exe!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc72237034 KERNEL32.DLL!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: [Callstack] 0x00007ffc72c82651 ntdll.dll!UnknownFunction []
+[2021.12.28-01.51.38:745][519]LogOutputDevice: Error: 

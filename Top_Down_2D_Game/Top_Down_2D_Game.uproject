@@ -1,0 +1,12 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{6EB3857F-4DD8-09CB-7953-118A86B71622}",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "StaticMeshEditorExtension",
+			"Enabled": true
+		}
+	]
+}
