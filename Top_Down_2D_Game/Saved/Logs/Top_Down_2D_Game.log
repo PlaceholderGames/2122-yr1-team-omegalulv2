@@ -1,8 +1,8 @@
-﻿Log file open, 12/30/21 12:15:00
+﻿Log file open, 12/30/21 12:17:02
 LogInit: Display: Running engine for game: Top_Down_2D_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.231877
+LogStats: Stats thread started at 0.211601
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -198,476 +198,1054 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:875][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:876][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.30-12.15.00:876][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.30-12.15.00:878][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.30-12.15.00:878][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.12.30-12.15.00:878][  0]LogHAL: Display: Platform has ~ 16 GB [17032126464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.12.30-12.15.00:878][  0]LogInit: Going up to parent DeviceProfile []
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.30-12.15.00:878][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.30-12.15.00:879][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.30-12.15.00:880][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.12.30-12.15.00:881][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.12.30-12.15.00:881][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.12.30-12.15.00:881][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.12.30-12.15.00:881][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2021.12.30-12.15.00:881][  0]LogInit: Computer: DARBOS-LAPTOP
-[2021.12.30-12.15.00:881][  0]LogInit: User: muscl
-[2021.12.30-12.15.00:881][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.12.30-12.15.00:881][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.12.30-12.15.00:881][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.12.30-12.15.00:881][  0]LogMemory: Platform Memory Stats for Windows
-[2021.12.30-12.15.00:881][  0]LogMemory: Process Physical Memory: 115.25 MB used, 115.26 MB peak
-[2021.12.30-12.15.00:881][  0]LogMemory: Process Virtual Memory: 96.93 MB used, 96.93 MB peak
-[2021.12.30-12.15.00:881][  0]LogMemory: Physical Memory: 7546.96 MB used,  8696.14 MB free, 16243.10 MB total
-[2021.12.30-12.15.00:881][  0]LogMemory: Virtual Memory: 5166.64 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2021.12.30-12.15.00:890][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.12.30-12.15.00:949][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.12.30-12.15.00:950][  0]LogInit: Using OS detected language (en-GB).
-[2021.12.30-12.15.00:950][  0]LogInit: Using OS detected locale (en-GB).
-[2021.12.30-12.15.00:953][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2021.12.30-12.15.01:169][  0]LogInit: Setting process to per monitor DPI aware
-[2021.12.30-12.15.01:206][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.12.30-12.15.01:206][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.12.30-12.15.01:401][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.30-12.15.01:401][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.12.30-12.15.01:401][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.12.30-12.15.01:401][  0]LogD3D11RHI: D3D11 adapters:
-[2021.12.30-12.15.01:530][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2021.12.30-12.15.01:530][  0]LogD3D11RHI:       6052/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.12.30-12.15.01:570][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2021.12.30-12.15.01:570][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2021.12.30-12.15.01:572][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.12.30-12.15.01:572][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.12.30-12.15.01:572][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.12.30-12.15.01:578][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.12.30-12.15.01:578][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
-[2021.12.30-12.15.01:579][  0]LogWindows: EnumDisplayDevices:
-[2021.12.30-12.15.01:579][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2021.12.30-12.15.01:579][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.12.30-12.15.01:579][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2021.12.30-12.15.01:579][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2021.12.30-12.15.01:580][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2021.12.30-12.15.01:580][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2021.12.30-12.15.01:580][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2021.12.30-12.15.01:580][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2021.12.30-12.15.01:580][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2021.12.30-12.15.01:580][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
-[2021.12.30-12.15.01:580][  0]LogD3D11RHI:      Driver Date: 1-22-2021
-[2021.12.30-12.15.01:580][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
-[2021.12.30-12.15.01:661][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.12.30-12.15.01:661][  0]LogD3D11RHI: Async texture creation enabled
-[2021.12.30-12.15.01:661][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.12.30-12.15.01:685][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.12.30-12.15.02:005][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.12.30-12.15.02:032][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.12.30-12.15.02:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.12.30-12.15.02:063][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.12.30-12.15.02:075][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.12.30-12.15.02:087][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.12.30-12.15.02:100][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.12.30-12.15.02:110][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.12.30-12.15.02:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.12.30-12.15.02:129][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.12.30-12.15.02:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.12.30-12.15.02:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.12.30-12.15.02:170][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.12.30-12.15.02:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.12.30-12.15.02:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.12.30-12.15.02:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.12.30-12.15.02:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.12.30-12.15.02:216][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.12.30-12.15.02:226][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.12.30-12.15.02:226][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.12.30-12.15.02:233][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.12.30-12.15.02:286][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Intermediate/Shaders/WorkingDirectory/19648/).
-[2021.12.30-12.15.02:287][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/muscl/AppData/Local/Temp/UnrealShaderWorkingDir/D12B61E04441A5DD63A47583065A0271/'.
-[2021.12.30-12.15.02:287][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.12.30-12.15.02:287][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.12.30-12.15.02:287][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.12.30-12.15.03:050][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: Loaded boot cache 0.08s 91MB C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.30-12.15.03:126][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.12.30-12.15.03:137][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.12.30-12.15.03:138][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.30-12.15.03:138][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.12.30-12.15.03:139][  0]LogDerivedDataCache: Using Local data cache path C:/Users/muscl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.12.30-12.15.03:140][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.12.30-12.15.03:140][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.12.30-12.15.03:190][  0]LogSlate: Using FreeType 2.10.0
-[2021.12.30-12.15.03:191][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.12.30-12.15.03:218][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
-[2021.12.30-12.15.03:438][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.30-12.15.03:719][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.12.30-12.15.03:719][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.12.30-12.15.03:719][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.12.30-12.15.03:719][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.12.30-12.15.03:720][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.12.30-12.15.03:736][  0]LogNetVersion: Top_Down_2D_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2660664877)
-[2021.12.30-12.15.04:230][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020D06CB5380), frame # 0
-[2021.12.30-12.15.04:230][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D06C08E00), frame # 0
-[2021.12.30-12.15.04:231][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D06C51E00), frame # 0
-[2021.12.30-12.15.04:793][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.555476 seconds
-[2021.12.30-12.15.04:798][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.12.30-12.15.04:798][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.12.30-12.15.04:798][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.12.30-12.15.05:176][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.12.30-12.15.05:181][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.12.30-12.15.05:264][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.05:264][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.05:267][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.05:269][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.05:275][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.05:562][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2021.12.30-12.15.05:562][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2021.12.30-12.15.05:562][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.12.30-12.15.05:579][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.30-12.15.05:579][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.30-12.15.05:618][  0]LogOcInput: OculusInput pre-init called
-[2021.12.30-12.15.05:629][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.12.30-12.15.05:629][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.12.30-12.15.05:684][  0]LogEngine: Initializing Engine...
-[2021.12.30-12.15.05:685][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.30-12.15.05:685][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.12.30-12.15.05:686][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.12.30-12.15.05:806][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.12.30-12.15.05:819][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.12.30-12.15.05:819][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D08FF9C00), frame # 0
-[2021.12.30-12.15.05:819][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D09025080), frame # 0
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.12.30-12.15.05:846][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.12.30-12.15.05:846][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.12.30-12.15.05:846][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.12.30-12.15.05:865][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.12.30-12.15.05:865][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.12.30-12.15.05:904][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2021.12.30-12.15.05:906][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.12.30-12.15.05:908][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.12.30-12.15.05:908][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.12.30-12.15.05:909][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.12.30-12.15.05:910][  0]LogInit: FAudioDevice initialized.
-[2021.12.30-12.15.05:911][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.12.30-12.15.05:973][  0]LogDerivedDataCache: Saved boot cache 0.06s 91MB C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.30-12.15.05:975][  0]LogInit: Texture streaming: Enabled
-[2021.12.30-12.15.05:989][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.12.30-12.15.05:989][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.12.30-12.15.05:992][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.12.30-12.15.06:495][  0]LogInit: Transaction tracking system initialized
-[2021.12.30-12.15.06:520][  0]BlueprintLog: New page: Editor Load
-[2021.12.30-12.15.06:599][  0]LocalizationService: Localization service is disabled
-[2021.12.30-12.15.06:791][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.12.30-12.15.06:791][  0]LogCook: Display: Mobile HDR setting 1
-[2021.12.30-12.15.06:960][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/' took 0.01s
-[2021.12.30-12.15.07:124][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2021.12.30-12.15.07:124][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
-[2021.12.30-12.15.07:190][  0]SourceControl: Source control is disabled
-[2021.12.30-12.15.07:190][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.226
-[2021.12.30-12.15.07:190][  0]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.12.30-12.15.07:190][  0]LightingResults: New page: Lighting Build
-[2021.12.30-12.15.07:191][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.12.30-12.15.07:191][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.30-12.15.07:191][  0]MapCheck: New page: Map Check
-[2021.12.30-12.15.07:191][  0]LightingResults: New page: Lighting Build
-[2021.12.30-12.15.07:205][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020D08FF9C00), frame # 0
-[2021.12.30-12.15.07:205][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020D09025080), frame # 0
-[2021.12.30-12.15.07:205][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
-[2021.12.30-12.15.07:368][  0]LogAIModule: Creating AISystem for world TheMap
-[2021.12.30-12.15.07:368][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020D13677E00), frame # 0
-[2021.12.30-12.15.07:368][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020D136B3100), frame # 0
-[2021.12.30-12.15.07:377][  0]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Rock_Sandstone.M_Rock_Sandstone needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2021.12.30-12.15.07:415][  0]LogMaterial: Display: Missing cached shader map for material M_Rock_Sandstone, compiling. 
-[2021.12.30-12.15.07:484][  0]MapCheck: Warning: M_Rock_Sandstone Material /Game/StarterContent/Materials/M_Rock_Sandstone.M_Rock_Sandstone was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2021.12.30-12.15.07:491][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 47
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 29
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 23
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
-[2021.12.30-12.15.07:506][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
-[2021.12.30-12.15.07:520][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2021.12.30-12.15.07:520][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.12.30-12.15.07:521][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.158ms to complete.
-[2021.12.30-12.15.07:593][  0]LogFileHelpers: Loading map 'TheMap' took 0.403
-[2021.12.30-12.15.07:596][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.632
-[2021.12.30-12.15.07:725][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.30-12.15.07:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.30-12.15.07:760][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.30-12.15.07:778][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.30-12.15.07:790][  0]LogCollectionManager: Loaded 0 collections in 0.002905 seconds
-[2021.12.30-12.15.07:824][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Collections/' took 0.00s
-[2021.12.30-12.15.07:824][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Developers/muscl/Collections/' took 0.00s
-[2021.12.30-12.15.07:824][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Collections/' took 0.00s
-[2021.12.30-12.15.07:824][  0]LogContentBrowser: Native class hierarchy populated in 0.0257 seconds. Added 3582 classes and 855 folders.
-[2021.12.30-12.15.07:829][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2021.12.30-12.15.07:929][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2021.12.30-12.15.07:931][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.12.30-12.15.07:966][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.12.30-12.15.07:970][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.12.30-12.15.07:976][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.12.30-12.15.08:147][  0]LogRenderer: Reallocating scene render targets to support 920x432 Format 10 NumSamples 1 (Frame:1).
-[2021.12.30-12.15.10:853][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2021.12.30-12.15.10:854][  0]LogLoad: (Engine Initialization) Total time: 11.89 seconds
-[2021.12.30-12.15.10:854][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.12.30-12.15.10:925][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.12.30-12.15.10:982][  0]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.30-12.15.11:280][  1]LogAssetRegistry: Asset discovery search completed in 8.0624 seconds
-[2021.12.30-12.15.11:290][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.30-12.17.03:120][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.30-12.17.03:121][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:121][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:123][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.30-12.17.03:123][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.30-12.17.03:124][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.30-12.17.03:124][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.30-12.17.03:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.30-12.17.03:124][  0]LogHAL: Display: Platform has ~ 16 GB [17032126464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.30-12.17.03:125][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.30-12.17.03:125][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.30-12.17.03:126][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2021.12.30-12.17.03:127][  0]LogInit: Computer: DARBOS-LAPTOP
+[2021.12.30-12.17.03:127][  0]LogInit: User: muscl
+[2021.12.30-12.17.03:127][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.12.30-12.17.03:127][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.30-12.17.03:127][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.12.30-12.17.03:127][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.30-12.17.03:127][  0]LogMemory: Process Physical Memory: 115.43 MB used, 115.43 MB peak
+[2021.12.30-12.17.03:127][  0]LogMemory: Process Virtual Memory: 97.12 MB used, 97.12 MB peak
+[2021.12.30-12.17.03:127][  0]LogMemory: Physical Memory: 6941.61 MB used,  9301.49 MB free, 16243.10 MB total
+[2021.12.30-12.17.03:127][  0]LogMemory: Virtual Memory: 5166.64 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.12.30-12.17.03:132][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.30-12.17.03:179][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.30-12.17.03:188][  0]LogInit: Using OS detected language (en-GB).
+[2021.12.30-12.17.03:188][  0]LogInit: Using OS detected locale (en-GB).
+[2021.12.30-12.17.03:191][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.12.30-12.17.03:352][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.30-12.17.03:385][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.30-12.17.03:385][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.30-12.17.03:557][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.30-12.17.03:557][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.30-12.17.03:557][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.30-12.17.03:557][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.30-12.17.03:675][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2021.12.30-12.17.03:675][  0]LogD3D11RHI:       6052/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.12.30-12.17.03:713][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2021.12.30-12.17.03:713][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2021.12.30-12.17.03:715][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.30-12.17.03:715][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.30-12.17.03:715][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.30-12.17.03:723][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.30-12.17.03:723][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.30-12.17.03:723][  0]LogWindows: EnumDisplayDevices:
+[2021.12.30-12.17.03:723][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2021.12.30-12.17.03:724][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.12.30-12.17.03:724][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2021.12.30-12.17.03:724][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.12.30-12.17.03:724][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.12.30-12.17.03:725][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.12.30-12.17.03:725][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2021.12.30-12.17.03:725][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2021.12.30-12.17.03:725][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2021.12.30-12.17.03:725][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2021.12.30-12.17.03:725][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2021.12.30-12.17.03:725][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.12.30-12.17.03:809][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.30-12.17.03:809][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.30-12.17.03:809][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.30-12.17.03:830][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.12.30-12.17.04:160][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.30-12.17.04:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.30-12.17.04:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.30-12.17.04:207][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.30-12.17.04:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.30-12.17.04:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.30-12.17.04:239][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.30-12.17.04:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.30-12.17.04:257][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.30-12.17.04:267][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.30-12.17.04:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.30-12.17.04:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.30-12.17.04:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.30-12.17.04:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.30-12.17.04:325][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.30-12.17.04:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.30-12.17.04:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.30-12.17.04:360][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.30-12.17.04:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.30-12.17.04:369][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.30-12.17.04:376][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.30-12.17.04:434][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Intermediate/Shaders/WorkingDirectory/20216/).
+[2021.12.30-12.17.04:434][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/muscl/AppData/Local/Temp/UnrealShaderWorkingDir/A14828464FC641F8B61D21AB1397FC4A/'.
+[2021.12.30-12.17.04:434][  0]LogXGEController: Cleaning working directory: C:/Users/muscl/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2021.12.30-12.17.04:434][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.30-12.17.04:435][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.30-12.17.04:435][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.30-12.17.05:162][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: Loaded boot cache 0.06s 91MB C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.30-12.17.05:217][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.30-12.17.05:226][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.30-12.17.05:227][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.30-12.17.05:227][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.30-12.17.05:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/muscl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.30-12.17.05:229][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.30-12.17.05:229][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.30-12.17.05:278][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.30-12.17.05:279][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.30-12.17.05:309][  0]LogAssetRegistry: FAssetRegistry took 0.0036 seconds to start up
+[2021.12.30-12.17.05:524][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.30-12.17.05:868][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.30-12.17.05:868][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.30-12.17.05:868][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.30-12.17.05:868][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.30-12.17.05:868][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.30-12.17.05:884][  0]LogNetVersion: Top_Down_2D_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2660664877)
+[2021.12.30-12.17.06:343][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000002ECEC851380), frame # 0
+[2021.12.30-12.17.06:344][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ECEC7C8A40), frame # 0
+[2021.12.30-12.17.06:345][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ECEC7F9E00), frame # 0
+[2021.12.30-12.17.07:093][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.743141 seconds
+[2021.12.30-12.17.07:098][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.30-12.17.07:098][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.30-12.17.07:098][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.30-12.17.07:424][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.30-12.17.07:428][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.30-12.17.07:496][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.07:496][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.07:499][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.07:503][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.07:510][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.07:828][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.30-12.17.07:828][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.30-12.17.07:828][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.30-12.17.07:845][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.30-12.17.07:846][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.30-12.17.07:891][  0]LogOcInput: OculusInput pre-init called
+[2021.12.30-12.17.07:905][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.30-12.17.07:905][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.30-12.17.07:974][  0]LogEngine: Initializing Engine...
+[2021.12.30-12.17.07:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.30-12.17.07:976][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.30-12.17.07:976][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.30-12.17.08:109][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.30-12.17.08:118][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.30-12.17.08:118][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ECF765DC00), frame # 0
+[2021.12.30-12.17.08:118][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ECEF325080), frame # 0
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.30-12.17.08:139][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.30-12.17.08:139][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.30-12.17.08:140][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.30-12.17.08:140][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.30-12.17.08:154][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.30-12.17.08:154][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.30-12.17.08:186][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.30-12.17.08:188][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.30-12.17.08:190][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.30-12.17.08:190][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.30-12.17.08:191][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.30-12.17.08:192][  0]LogInit: FAudioDevice initialized.
+[2021.12.30-12.17.08:192][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.30-12.17.08:283][  0]LogDerivedDataCache: Saved boot cache 0.09s 91MB C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.30-12.17.08:284][  0]LogInit: Texture streaming: Enabled
+[2021.12.30-12.17.08:299][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.30-12.17.08:299][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.30-12.17.08:300][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.30-12.17.08:962][  0]LogInit: Transaction tracking system initialized
+[2021.12.30-12.17.08:985][  0]BlueprintLog: New page: Editor Load
+[2021.12.30-12.17.09:060][  0]LocalizationService: Localization service is disabled
+[2021.12.30-12.17.09:244][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.30-12.17.09:244][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.30-12.17.09:365][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/' took 0.01s
+[2021.12.30-12.17.09:621][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.30-12.17.09:622][  0]LogImageWrapper: Warning: PNG Warning: Duplicate iCCP chunk
+[2021.12.30-12.17.09:622][  0]SourceControl: Source control is disabled
+[2021.12.30-12.17.09:622][  0]LogUnrealEdMisc: Loading editor; pre map load, took 8.102
+[2021.12.30-12.17.09:622][  0]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.30-12.17.09:622][  0]LightingResults: New page: Lighting Build
+[2021.12.30-12.17.09:623][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.09:623][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.09:623][  0]MapCheck: New page: Map Check
+[2021.12.30-12.17.09:623][  0]LightingResults: New page: Lighting Build
+[2021.12.30-12.17.09:636][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ECF765DC00), frame # 0
+[2021.12.30-12.17.09:636][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ECEF325080), frame # 0
+[2021.12.30-12.17.09:637][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.12.30-12.17.09:794][  0]LogAIModule: Creating AISystem for world TheMap
+[2021.12.30-12.17.09:794][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ECF774BE00), frame # 0
+[2021.12.30-12.17.09:794][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ECF776F240), frame # 0
+[2021.12.30-12.17.09:804][  0]LogMaterial: Display: Material /Game/StarterContent/Materials/M_Rock_Sandstone.M_Rock_Sandstone needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2021.12.30-12.17.09:828][  0]LogMaterial: Display: Missing cached shader map for material M_Rock_Sandstone, compiling. 
+[2021.12.30-12.17.09:895][  0]MapCheck: Warning: M_Rock_Sandstone Material /Game/StarterContent/Materials/M_Rock_Sandstone.M_Rock_Sandstone was missing the usage flag bUsedWithInstancedStaticMeshes. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2021.12.30-12.17.09:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 47
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 35
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 29
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 23
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2021.12.30-12.17.09:918][  0]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2021.12.30-12.17.09:935][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2021.12.30-12.17.09:935][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.30-12.17.09:936][  0]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.115ms to complete.
+[2021.12.30-12.17.10:007][  0]LogFileHelpers: Loading map 'TheMap' took 0.386
+[2021.12.30-12.17.10:010][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.490
+[2021.12.30-12.17.10:142][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.10:159][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.10:178][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.10:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.10:205][  0]LogCollectionManager: Loaded 0 collections in 0.002732 seconds
+[2021.12.30-12.17.10:236][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Collections/' took 0.00s
+[2021.12.30-12.17.10:236][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Developers/muscl/Collections/' took 0.00s
+[2021.12.30-12.17.10:236][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Collections/' took 0.00s
+[2021.12.30-12.17.10:236][  0]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 3582 classes and 855 folders.
+[2021.12.30-12.17.10:240][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.30-12.17.10:329][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2021.12.30-12.17.10:331][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
+[2021.12.30-12.17.10:362][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.30-12.17.10:365][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.30-12.17.10:374][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.30-12.17.10:514][  0]LogRenderer: Reallocating scene render targets to support 920x432 Format 10 NumSamples 1 (Frame:1).
+[2021.12.30-12.17.13:389][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2021.12.30-12.17.13:389][  0]LogLoad: (Engine Initialization) Total time: 11.87 seconds
+[2021.12.30-12.17.13:389][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.30-12.17.13:455][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.30-12.17.13:511][  0]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.30-12.17.13:839][  1]LogAssetRegistry: Asset discovery search completed in 8.5306 seconds
+[2021.12.30-12.17.13:851][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2021.12.30-12.17.27:138][477]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.30-12.17.27:151][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.30-12.17.27:152][477]PIE: New page: PIE session: TheMap (30 Dec 2021, 12:17:27)
+[2021.12.30-12.17.27:154][477]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.30-12.17.27:155][477]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.30-12.17.27:156][477]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.17.27:205][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049527s)
+[2021.12.30-12.17.27:207][477]LogAIModule: Creating AISystem for world TheMap
+[2021.12.30-12.17.27:207][477]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EC8B005800), frame # 477
+[2021.12.30-12.17.27:207][477]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ECF7AFA700), frame # 477
+[2021.12.30-12.17.27:207][477]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2021.12.30-12.17.27:207][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.051599s)
+[2021.12.30-12.17.27:222][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.30-12.17.27:223][477]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.30-12.17.27:223][477]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.30-12.17.27:224][477]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.30-12.17.27:224][477]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.30-12.17.27:227][477]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.30-12.17.27:227][477]LogAudioMixer: Display: 1: FrontRight
+[2021.12.30-12.17.27:241][477]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.30-12.17.27:241][477]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.30-12.17.27:241][477]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.30-12.17.27:241][477]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.30-12.17.27:241][477]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.30-12.17.27:257][477]LogInit: FAudioDevice initialized.
+[2021.12.30-12.17.27:469][477]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.30-12.17.27:478][477]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.30-12.17.27
+[2021.12.30-12.17.27:478][477]LogWorld: Bringing up level for play took: 0.006305
+[2021.12.30-12.17.27:478][477]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.12.30-12.17.27:487][477]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.12.30-12.17.27:499][477]PIE: Server logged in
+[2021.12.30-12.17.27:501][477]PIE: Play in editor total start time 0.351 seconds.
+[2021.12.30-12.17.30:019][705]LogEditorViewport: Clicking on Actor (LMB): ProcGenFloor_BP_C (ProcGenFloor_BP)
+[2021.12.30-12.17.35:287][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.35:287][138]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.17.35:288][138]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.35:289][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.35:295][138]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.30-12.17.35:297][138]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.35:324][138]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.35:331][138]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EC8B005800), frame # 1138
+[2021.12.30-12.17.35:331][138]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ECF7AFA700), frame # 1138
+[2021.12.30-12.17.35:332][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.12.30-12.17.35:361][139]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.12.30-12.17.35:868][186]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.30-12.17.35:877][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.30-12.17.35:877][186]PIE: New page: PIE session: TheMap (30 Dec 2021, 12:17:35)
+[2021.12.30-12.17.35:879][186]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.17.35:924][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046678s)
+[2021.12.30-12.17.35:925][186]LogAIModule: Creating AISystem for world TheMap
+[2021.12.30-12.17.35:925][186]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EC8BC2F000), frame # 1186
+[2021.12.30-12.17.35:925][186]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002EC83F0E840), frame # 1186
+[2021.12.30-12.17.35:926][186]LogPlayLevel: PIE: World Init took: (0.001179s)
+[2021.12.30-12.17.35:926][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.048113s)
+[2021.12.30-12.17.35:937][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.30-12.17.35:938][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.30-12.17.35:938][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.30-12.17.35:940][186]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.30-12.17.35:940][186]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.30-12.17.35:942][186]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.30-12.17.35:942][186]LogAudioMixer: Display: 1: FrontRight
+[2021.12.30-12.17.35:956][186]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.30-12.17.35:957][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.30-12.17.35:957][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.30-12.17.35:957][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.30-12.17.35:957][186]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.30-12.17.35:975][186]LogInit: FAudioDevice initialized.
+[2021.12.30-12.17.35:983][186]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.30-12.17.35:990][186]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.30-12.17.35
+[2021.12.30-12.17.35:990][186]LogWorld: Bringing up level for play took: 0.006663
+[2021.12.30-12.17.35:991][186]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2021.12.30-12.17.35:994][186]PIE: Server logged in
+[2021.12.30-12.17.35:995][186]PIE: Play in editor total start time 0.118 seconds.
+[2021.12.30-12.17.46:847][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.46:847][437]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.17.46:847][437]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.46:847][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.46:855][437]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.30-12.17.46:858][437]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.46:866][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.17.46:884][437]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002EC83F0E840), frame # 2437
+[2021.12.30-12.17.46:884][437]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EC8BC2F000), frame # 2437
+[2021.12.30-12.17.46:885][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.12.30-12.17.46:930][439]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2021.12.30-12.17.48:489][590]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.30-12.17.48:508][590]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Menus/Main_Menu_PC.Main_Menu_PC
+[2021.12.30-12.17.48:721][590]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.12.30-12.17.51:724][719]LogSlate: Window 'Main_Menu_PC' being destroyed
+[2021.12.30-12.17.51:756][719]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.51:756][719]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.55:289][  5]LogTexture: Display: Building textures: button_bg (BGRA8, 630X144)
+[2021.12.30-12.17.55:289][  5]LogTexture: Display: Building textures: menu (AutoDXT, 1920X1080)
+[2021.12.30-12.17.55:320][  5]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menus/Main_Menu_Widget.Main_Menu_Widget
+[2021.12.30-12.17.56:144][  5]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.30-12.17.59:396][199]LogSlate: Window 'Main_Menu_Widget' being destroyed
+[2021.12.30-12.17.59:436][199]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.59:436][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.17.59:451][199]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.17.59:451][199]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.18.04:746][693]MapCheck: New page: Map Check
+[2021.12.30-12.18.04:770][693]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.30-12.18.04:770][693]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.30-12.18.09:236][693]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=false
+[2021.12.30-12.18.09:383][693]LogEditorServer: Cleared 14 NULL BSP materials after rebuild.
+[2021.12.30-12.18.09:391][693]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.12.30-12.18.09:391][693]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.12.30-12.18.09:391][693]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.12.30-12.18.09:456][693]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2021.12.30-12.18.09:462][693]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.09:468][693]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.09:472][693]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.12.30-12.18.09:514][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.12.30-12.18.09:515][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.12.30-12.18.09:515][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.12.30-12.18.09:515][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.12.30-12.18.09:515][693]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.09:517][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2021.12.30-12.18.09:517][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 49
+[2021.12.30-12.18.09:517][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 48
+[2021.12.30-12.18.09:517][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2021.12.30-12.18.09:517][693]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 50
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 49
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 48
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 46
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 45
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 44
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 43
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 42
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 41
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 40
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 39
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 38
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 37
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 36
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 35
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 34
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 33
+[2021.12.30-12.18.12:697][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 32
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 31
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 30
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 29
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 28
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 27
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 26
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 25
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 24
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 23
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 22
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 21
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 20
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 19
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 18
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 17
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 15
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 14
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 13
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 12
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 11
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 10
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 9
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 8
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 5
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2021.12.30-12.18.12:698][693]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2021.12.30-12.18.12:698][693]TextureStreamingBuild: Display: Compiling optional shaders took 3.239 seconds.
+[2021.12.30-12.18.12:847][693]LogLevel: Display: Export Material TexCoord Scales took 0.149 seconds.
+[2021.12.30-12.18.12:850][693]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.12.30-12.18.12:903][693]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2021.12.30-12.18.12:909][693]LightingResults: New page: Lighting Build - 30 Dec 2021, 12:18:12
+[2021.12.30-12.18.13:090][693]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.30-12.18.13:159][693]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.30-12.18.13:174][693]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.30-12.18.15:739][693]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.30-12.18.15:739][693]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20216
+[2021.12.30-12.18.22:433][693]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.30-12.18.22:437][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.30-12.18.22:437][693]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.30-12.18.22:437][693]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.30-12.18.22:437][693]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.30-12.18.22:437][693]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.30-12.18.22:690][693]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.12.30-12.18.22:690][693]MapCheck: New page: TheMap - 30 Dec 2021, 12:18:22
+[2021.12.30-12.18.22:690][693]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.22:690][693]MapCheck: Warning: Environment_Floor_9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.22:690][693]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.733ms to complete.
+[2021.12.30-12.18.22:692][693]LogEditorBuildUtils: Build time 0:17
+[2021.12.30-12.18.23:159][693]LogSlate: Took 0.009001 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.30-12.18.23:420][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.12.30-12.18.26:042][814]LogSlate: Window 'Message Log' being destroyed
+[2021.12.30-12.18.26:060][814]LogSlate: Window 'Message Log' being destroyed
+[2021.12.30-12.18.28:787][926]Job is a success!
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.109s
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:          1: 4.0% covering 6.2% of volume
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:          2: 94.9% covering 2.3% of volume
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.30-12.18.33:949][287]LogVolumetricLightmapImport:          TheMap 			 99 bricks 	 100.0% (Persistent Level)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.12.30-12.18.34:401][287]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X512)
+[2021.12.30-12.18.34:401][287]Lightmass on DARBOS-LAPTOP: 10.2 sec total, 463 ms importing, 63 ms setup, 319 ms photons, 8.12 sec processing, 0 ms extra exporting [1363/1363 mappings]. Threads: 1:29 min total, 3.41 sec processing.
+[2021.12.30-12.18.34:409][287]LogStaticLightingSystem: TheMap_BuiltData storing lightmap data for 19 meshes in 2 LightmapResourceClusters (9.5 Meshes per cluster).
+[2021.12.30-12.18.34:457][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.12.30-12.18.34:537][287]LogStaticLightingSystem: Illumination: 16.6 sec (133 ms encoding lightmaps, 54 ms encoding shadowmaps)
+[2021.12.30-12.18.34:537][287]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2021.12.30-12.18.34:537][287]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2021.12.30-12.18.35:451][287]DumpUnbuiltLightIteractions
+[2021.12.30-12.18.35:451][287]Lights with unbuilt interactions: 0
+[2021.12.30-12.18.35:451][287]
+[2021.12.30-12.18.35:451][287]Primitives with unbuilt interactions: 0
+[2021.12.30-12.18.35:609][288]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.30-12.18.35:610][288]MapCheck: New page: TheMap - 30 Dec 2021, 12:18:35
+[2021.12.30-12.18.35:610][288]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.35:610][288]MapCheck: Warning: Environment_Floor_9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.35:610][288]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.513ms to complete.
+[2021.12.30-12.18.44:752][ 57]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/Sprite_TestMap.Sprite_TestMap
+[2021.12.30-12.18.44:773][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.12.30-12.18.46:415][ 57]LogSlate: Window 'Save Content' being destroyed
+[2021.12.30-12.18.46:443][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapFiles/Maps/TheMap" FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.12.30-12.18.46:548][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.12.30-12.18.46:743][ 57]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/TheMapEE8449AF4A1595945D79A3AC325C09E6.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap'
+[2021.12.30-12.18.47:012][ 57]LogFileHelpers: Saving map 'TheMap' took 0.570
+[2021.12.30-12.18.47:030][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapFiles/Maps/TheMap_BuiltData" FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap_BuiltData.uasset" SILENT=true
+[2021.12.30-12.18.47:113][ 57]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/TheMap_BuiltDataFAC455514F14D420B23D31A19665D6AB.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap_BuiltData.uasset'
+[2021.12.30-12.18.47:235][ 57]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Sprite_TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.30-12.18.47:235][ 57]LightingResults: New page: Lighting Build
+[2021.12.30-12.18.47:236][ 57]LoadErrors: New page: Loading map: Sprite_TestMap.umap
+[2021.12.30-12.18.47:238][ 57]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.18.47:238][ 57]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.18.47:238][ 57]MapCheck: New page: Map Check
+[2021.12.30-12.18.47:238][ 57]LightingResults: New page: Lighting Build
+[2021.12.30-12.18.47:258][ 57]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ECF774BE00), frame # 5057
+[2021.12.30-12.18.47:259][ 57]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ECF776F240), frame # 5057
+[2021.12.30-12.18.47:262][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.12.30-12.18.47:283][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.12.30-12.18.47:299][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2021.12.30-12.18.47:303][ 57]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.30-12.18.47:303][ 57]LogAIModule: Creating AISystem for world Sprite_TestMap
+[2021.12.30-12.18.47:303][ 57]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ECFC1AD800), frame # 5057
+[2021.12.30-12.18.47:303][ 57]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ED0041B100), frame # 5057
+[2021.12.30-12.18.47:321][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2021.12.30-12.18.47:334][ 57]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.30-12.18.47:334][ 57]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.087ms to complete.
+[2021.12.30-12.18.47:334][ 57]LogFileHelpers: Loading map 'Sprite_TestMap' took 0.098
+[2021.12.30-12.18.47:382][ 57]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.30-12.18.47:382][ 57]LogContentValidation: Display: Validating World /Game/MapFiles/Maps/TheMap.TheMap
+[2021.12.30-12.18.47:457][ 57]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MapFiles/Maps/TheMap_BuiltData.TheMap_BuiltData
+[2021.12.30-12.18.48:521][155]MapCheck: New page: Map Check
+[2021.12.30-12.18.48:541][155]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.30-12.18.48:541][155]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.30-12.18.48:596][155]LogWorld: UWorld::CleanupWorld for Sprite_TestMap, bSessionEnded=true, bCleanupResources=false
+[2021.12.30-12.18.48:602][155]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.12.30-12.18.48:602][155]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.12.30-12.18.48:602][155]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.12.30-12.18.48:623][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2021.12.30-12.18.48:624][155]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.48:626][155]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.12.30-12.18.49:172][155]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.12.30-12.18.49:172][155]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.12.30-12.18.49:172][155]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.12.30-12.18.49:172][155]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.12.30-12.18.49:172][155]TextureStreamingBuild: Display: Compiling optional shaders took 0.549 seconds.
+[2021.12.30-12.18.49:225][155]LogLevel: Display: Export Material TexCoord Scales took 0.053 seconds.
+[2021.12.30-12.18.49:229][155]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.12.30-12.18.49:245][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.12.30-12.18.49:248][155]LightingResults: New page: Lighting Build - 30 Dec 2021, 12:18:49
+[2021.12.30-12.18.49:294][155]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.30-12.18.49:296][155]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.30-12.18.49:296][155]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.30-12.18.49:297][155]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.30-12.18.49:297][155]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20216
+[2021.12.30-12.18.53:899][155]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.30-12.18.53:899][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.30-12.18.53:900][155]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.30-12.18.53:900][155]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.30-12.18.53:900][155]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.30-12.18.53:900][155]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.30-12.18.54:010][155]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.12.30-12.18.54:010][155]MapCheck: New page: Sprite_TestMap - 30 Dec 2021, 12:18:54
+[2021.12.30-12.18.54:010][155]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.54:010][155]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.31ms to complete.
+[2021.12.30-12.18.54:013][155]LogEditorBuildUtils: Build time 0:05
+[2021.12.30-12.18.54:360][158]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2021.12.30-12.18.55:728][216]Job is a success!
+[2021.12.30-12.18.55:921][216]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.088s
+[2021.12.30-12.18.55:921][216]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.30-12.18.55:921][216]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.12.30-12.18.55:921][216]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.30-12.18.55:921][216]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2021.12.30-12.18.55:922][216]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2021.12.30-12.18.55:922][216]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2021.12.30-12.18.55:922][216]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.30-12.18.55:922][216]LogVolumetricLightmapImport:          Sprite_TestMap 			 1 bricks 	 100.0% (Persistent Level)
+[2021.12.30-12.18.55:942][216]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2021.12.30-12.18.55:942][216]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2021.12.30-12.18.55:942][216]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 32X32)
+[2021.12.30-12.18.55:966][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2021.12.30-12.18.55:980][216]Lightmass on DARBOS-LAPTOP: 1.04 sec total, 232 ms importing, 22 ms setup, 75 ms photons, 685 ms processing, 0 ms extra exporting [1/1 mappings]. Threads: 7.52 sec total, 179 ms processing.
+[2021.12.30-12.18.56:033][216]LogStaticLightingSystem: Illumination: 6.69 sec (6 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2021.12.30-12.18.56:033][216]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.12.30-12.18.56:033][216]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2021.12.30-12.18.56:900][216]DumpUnbuiltLightIteractions
+[2021.12.30-12.18.56:900][216]Lights with unbuilt interactions: 0
+[2021.12.30-12.18.56:900][216]
+[2021.12.30-12.18.56:900][216]Primitives with unbuilt interactions: 0
+[2021.12.30-12.18.57:042][217]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.30-12.18.57:042][217]MapCheck: New page: Sprite_TestMap - 30 Dec 2021, 12:18:57
+[2021.12.30-12.18.57:042][217]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2021.12.30-12.18.57:042][217]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 0.271ms to complete.
+[2021.12.30-12.18.58:459][294]LogSlate: Window 'Message Log' being destroyed
+[2021.12.30-12.18.58:486][294]LogSlate: Window 'Message Log' being destroyed
+[2021.12.30-12.19.00:788][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:788][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:789][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:789][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:790][470]LogLinker: Warning: Failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:790][470]LogLinker: Warning: Failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:791][470]LogLinker: Warning: Failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:791][470]LogLinker: Warning: Failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:797][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:797][470]LoadErrors: Failed to load /Game/MapFiles/Maps/Main_Menu_BuiltData.Main_Menu_BuiltData Referenced by PersistentLevel
+[2021.12.30-12.19.00:797][470]LogLinker: Warning: While loading 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap' failed to load '/Game/MapFiles/Maps/Main_Menu_BuiltData': Can't find file.
+[2021.12.30-12.19.00:800][470]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/Main_Menu.Main_Menu
+[2021.12.30-12.19.00:821][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.12.30-12.19.03:020][470]LogSlate: Window 'Save Content' being destroyed
+[2021.12.30-12.19.03:165][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2021.12.30-12.19.03:222][470]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Sprite_TestMap1812FDD24FCE1E4771645693FE392D17.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Sprite_TestMap.umap'
+[2021.12.30-12.19.03:331][470]LogFileHelpers: Saving map 'Sprite_TestMap' took 0.281
+[2021.12.30-12.19.03:357][470]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Sprite_TestMap_BuiltData072D81B84F63D03FF6710D827C92AE53.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Sprite_TestMap_BuiltData.uasset'
+[2021.12.30-12.19.03:431][470]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.30-12.19.03:431][470]LightingResults: New page: Lighting Build
+[2021.12.30-12.19.03:431][470]LoadErrors: New page: Loading map: Main_Menu.umap
+[2021.12.30-12.19.03:457][470]LogWorld: UWorld::CleanupWorld for Sprite_TestMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.19.03:457][470]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.19.03:457][470]MapCheck: New page: Map Check
+[2021.12.30-12.19.03:457][470]LightingResults: New page: Lighting Build
+[2021.12.30-12.19.03:478][470]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ED0041B100), frame # 5470
+[2021.12.30-12.19.03:478][470]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ECFC1AD800), frame # 5470
+[2021.12.30-12.19.03:480][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2021.12.30-12.19.03:504][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2021.12.30-12.19.03:524][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.12.30-12.19.03:526][470]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.30-12.19.03:526][470]LogAIModule: Creating AISystem for world Main_Menu
+[2021.12.30-12.19.03:526][470]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ED0504F200), frame # 5470
+[2021.12.30-12.19.03:526][470]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ED122A8F40), frame # 5470
+[2021.12.30-12.19.03:553][470]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.12.30-12.19.03:576][470]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.30-12.19.03:576][470]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
+[2021.12.30-12.19.03:576][470]LogFileHelpers: Loading map 'Main_Menu' took 0.145
+[2021.12.30-12.19.03:623][470]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.30-12.19.03:623][470]LogContentValidation: Display: Validating World /Game/MapFiles/Maps/Sprite_TestMap.Sprite_TestMap
+[2021.12.30-12.19.03:637][470]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MapFiles/Maps/Sprite_TestMap_BuiltData.Sprite_TestMap_BuiltData
+[2021.12.30-12.19.05:802][677]MapCheck: New page: Map Check
+[2021.12.30-12.19.05:824][677]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.30-12.19.05:824][677]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.30-12.19.05:920][677]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=false
+[2021.12.30-12.19.05:928][677]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.12.30-12.19.05:928][677]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.12.30-12.19.05:928][677]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.12.30-12.19.05:949][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.12.30-12.19.05:953][677]LightingResults: New page: Lighting Build - 30 Dec 2021, 12:19:05
+[2021.12.30-12.19.06:005][677]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.30-12.19.06:008][677]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.30-12.19.06:008][677]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.30-12.19.06:009][677]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.30-12.19.06:009][677]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20216
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.30-12.19.10:580][677]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.30-12.19.10:628][677]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.12.30-12.19.10:628][677]MapCheck: New page: Main_Menu - 30 Dec 2021, 12:19:10
+[2021.12.30-12.19.10:628][677]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.283ms to complete.
+[2021.12.30-12.19.10:631][677]LogEditorBuildUtils: Build time 0:04
+[2021.12.30-12.19.10:713][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2021.12.30-12.19.11:701][724]Job is a success!
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.30-12.19.11:849][725]LogVolumetricLightmapImport:          Main_Menu 			 1 bricks 	 100.0% (Persistent Level)
+[2021.12.30-12.19.11:870][725]Lightmass on DARBOS-LAPTOP: 660 ms total, 169 ms importing, 21 ms setup, 44 ms photons, 410 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 4.49 sec total, 0 ms processing.
+[2021.12.30-12.19.11:871][725]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.12.30-12.19.11:914][725]LogStaticLightingSystem: Illumination: 5.90 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2021.12.30-12.19.11:914][725]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.12.30-12.19.11:915][725]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.12.30-12.19.12:579][725]DumpUnbuiltLightIteractions
+[2021.12.30-12.19.12:579][725]Lights with unbuilt interactions: 0
+[2021.12.30-12.19.12:579][725]
+[2021.12.30-12.19.12:579][725]Primitives with unbuilt interactions: 0
+[2021.12.30-12.19.12:647][726]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.30-12.19.12:647][726]MapCheck: New page: Main_Menu - 30 Dec 2021, 12:19:12
+[2021.12.30-12.19.12:648][726]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.271ms to complete.
+[2021.12.30-12.19.15:877][ 11]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/GameOver_Menu.GameOver_Menu
+[2021.12.30-12.19.15:894][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2021.12.30-12.19.17:116][ 11]LogSlate: Window 'Save Content' being destroyed
+[2021.12.30-12.19.17:198][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.12.30-12.19.17:215][ 11]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Main_Menu3F4A5C2F4C84402AC7E316AA645FFAEE.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu.umap'
+[2021.12.30-12.19.17:336][ 11]LogFileHelpers: Saving map 'Main_Menu' took 0.196
+[2021.12.30-12.19.17:336][ 11]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MapFiles/Maps/Main_Menu_BuiltData" FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu_BuiltData.uasset" SILENT=true
+[2021.12.30-12.19.17:360][ 11]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Main_Menu_BuiltData8F633C0C411FFD083B8AD78603E1B668.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/Main_Menu_BuiltData.uasset'
+[2021.12.30-12.19.17:445][ 11]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/GameOver_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.30-12.19.17:445][ 11]LightingResults: New page: Lighting Build
+[2021.12.30-12.19.17:445][ 11]LoadErrors: New page: Loading map: GameOver_Menu.umap
+[2021.12.30-12.19.17:446][ 11]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.19.17:446][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.19.17:446][ 11]MapCheck: New page: Map Check
+[2021.12.30-12.19.17:446][ 11]LightingResults: New page: Lighting Build
+[2021.12.30-12.19.17:463][ 11]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ED122A8F40), frame # 6011
+[2021.12.30-12.19.17:463][ 11]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ED0504F200), frame # 6011
+[2021.12.30-12.19.17:464][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2021.12.30-12.19.17:483][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2021.12.30-12.19.17:499][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2021.12.30-12.19.17:501][ 11]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.30-12.19.17:501][ 11]LogAIModule: Creating AISystem for world GameOver_Menu
+[2021.12.30-12.19.17:501][ 11]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EC8B005A00), frame # 6011
+[2021.12.30-12.19.17:501][ 11]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ED02AB2C00), frame # 6011
+[2021.12.30-12.19.17:518][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2021.12.30-12.19.17:531][ 11]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.30-12.19.17:534][ 11]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.628ms to complete.
+[2021.12.30-12.19.17:534][ 11]LogFileHelpers: Loading map 'GameOver_Menu' took 0.090
+[2021.12.30-12.19.17:577][ 11]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.30-12.19.17:577][ 11]LogContentValidation: Display: Validating World /Game/MapFiles/Maps/Main_Menu.Main_Menu
+[2021.12.30-12.19.17:583][ 11]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MapFiles/Maps/Main_Menu_BuiltData.Main_Menu_BuiltData
+[2021.12.30-12.19.19:181][158]MapCheck: New page: Map Check
+[2021.12.30-12.19.19:205][158]Cmd: MAP REBUILD ALLVISIBLE
+[2021.12.30-12.19.19:205][158]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.12.30-12.19.19:221][158]LogWorld: UWorld::CleanupWorld for GameOver_Menu, bSessionEnded=true, bCleanupResources=false
+[2021.12.30-12.19.19:229][158]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.12.30-12.19.19:229][158]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.12.30-12.19.19:229][158]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.12.30-12.19.19:254][158]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2021.12.30-12.19.19:259][158]LightingResults: New page: Lighting Build - 30 Dec 2021, 12:19:19
+[2021.12.30-12.19.19:301][158]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.12.30-12.19.19:305][158]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.12.30-12.19.19:305][158]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.12.30-12.19.19:306][158]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.12.30-12.19.19:306][158]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20216
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.12.30-12.19.28:410][158]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.12.30-12.19.28:467][158]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.12.30-12.19.28:467][158]MapCheck: New page: GameOver_Menu - 30 Dec 2021, 12:19:28
+[2021.12.30-12.19.28:467][158]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.474ms to complete.
+[2021.12.30-12.19.28:471][158]LogEditorBuildUtils: Build time 0:09
+[2021.12.30-12.19.28:564][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2021.12.30-12.19.29:549][201]Job is a success!
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:      Bricks at depth
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:          0: 100.0% covering 100.0% of volume
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:          1: 0.0% covering 0.0% of volume
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:      Bricks in each level
+[2021.12.30-12.19.29:700][202]LogVolumetricLightmapImport:          GameOver_Menu 			 1 bricks 	 100.0% (Persistent Level)
+[2021.12.30-12.19.29:721][202]Lightmass on DARBOS-LAPTOP: 658 ms total, 164 ms importing, 29 ms setup, 42 ms photons, 402 ms processing, 0 ms extra exporting [0/0 mappings]. Threads: 4.40 sec total, 0 ms processing.
+[2021.12.30-12.19.29:721][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.12.30-12.19.29:760][202]LogStaticLightingSystem: Illumination: 10.4 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2021.12.30-12.19.29:760][202]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.12.30-12.19.29:760][202]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2021.12.30-12.19.30:409][202]DumpUnbuiltLightIteractions
+[2021.12.30-12.19.30:409][202]Lights with unbuilt interactions: 0
+[2021.12.30-12.19.30:409][202]
+[2021.12.30-12.19.30:409][202]Primitives with unbuilt interactions: 0
+[2021.12.30-12.19.30:480][203]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.12.30-12.19.30:480][203]MapCheck: New page: GameOver_Menu - 30 Dec 2021, 12:19:30
+[2021.12.30-12.19.30:480][203]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.212ms to complete.
+[2021.12.30-12.19.34:046][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2021.12.30-12.19.34:060][521]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/GameOver_Menu2619908A402ADD55133C28B1AE7B6647.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/GameOver_Menu.umap'
+[2021.12.30-12.19.34:291][521]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/GameOver_Menu_BuiltDataE6EB5F9F4D048B82B4983B9810873AC4.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/GameOver_Menu_BuiltData.uasset'
+[2021.12.30-12.19.34:376][521]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.30-12.19.34:376][521]LogContentValidation: Display: Validating World /Game/MapFiles/Maps/GameOver_Menu.GameOver_Menu
+[2021.12.30-12.19.34:376][521]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MapFiles/Maps/GameOver_Menu_BuiltData.GameOver_Menu_BuiltData
+[2021.12.30-12.21.46:775][284]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MapFiles/Maps/TheMap.TheMap
+[2021.12.30-12.21.46:798][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.12.30-12.21.46:801][284]Cmd: MAP LOAD FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/MapFiles/Maps/TheMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.30-12.21.46:801][284]LightingResults: New page: Lighting Build
+[2021.12.30-12.21.46:801][284]LoadErrors: New page: Loading map: TheMap.umap
+[2021.12.30-12.21.46:831][284]LogWorld: UWorld::CleanupWorld for GameOver_Menu, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.21.46:831][284]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.21.46:831][284]MapCheck: New page: Map Check
+[2021.12.30-12.21.46:831][284]LightingResults: New page: Lighting Build
+[2021.12.30-12.21.46:852][284]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ED02AB2C00), frame # 16284
+[2021.12.30-12.21.46:852][284]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002EC8B005A00), frame # 16284
+[2021.12.30-12.21.46:854][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2021.12.30-12.21.46:874][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2021.12.30-12.21.46:893][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2021.12.30-12.21.46:905][284]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.30-12.21.46:905][284]LogAIModule: Creating AISystem for world TheMap
+[2021.12.30-12.21.46:905][284]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002EC8B004200), frame # 16284
+[2021.12.30-12.21.46:905][284]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ED0825C400), frame # 16284
+[2021.12.30-12.21.46:931][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2021.12.30-12.21.47:236][284]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.30-12.21.47:240][284]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.567ms to complete.
+[2021.12.30-12.21.47:240][284]LogFileHelpers: Loading map 'TheMap' took 0.440
+[2021.12.30-12.21.51:293][643]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.30-12.21.51:304][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.30-12.21.51:304][643]PIE: New page: PIE session: TheMap (30 Dec 2021, 12:21:51)
+[2021.12.30-12.21.51:330][643]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.21.51:399][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069321s)
+[2021.12.30-12.21.51:400][643]LogAIModule: Creating AISystem for world TheMap
+[2021.12.30-12.21.51:400][643]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002ECF7A9E000), frame # 16643
+[2021.12.30-12.21.51:400][643]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002ED08390400), frame # 16643
+[2021.12.30-12.21.51:401][643]LogPlayLevel: PIE: World Init took: (0.002001s)
+[2021.12.30-12.21.51:401][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.071626s)
+[2021.12.30-12.21.51:424][643]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.30-12.21.51:426][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.30-12.21.51:426][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.30-12.21.51:427][643]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.30-12.21.51:427][643]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.30-12.21.51:432][643]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.30-12.21.51:432][643]LogAudioMixer: Display: 1: FrontRight
+[2021.12.30-12.21.51:449][643]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.12.30-12.21.51:450][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.30-12.21.51:450][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.30-12.21.51:450][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.30-12.21.51:450][643]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.30-12.21.51:466][643]LogInit: FAudioDevice initialized.
+[2021.12.30-12.21.51:475][643]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.12.30-12.21.51:480][643]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 0) at 2021.12.30-12.21.51
+[2021.12.30-12.21.51:480][643]LogWorld: Bringing up level for play took: 0.004276
+[2021.12.30-12.21.51:480][643]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.12.30-12.21.51:484][643]PIE: Server logged in
+[2021.12.30-12.21.51:484][643]PIE: Play in editor total start time 0.182 seconds.
+[2021.12.30-12.21.54:791][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.21.54:791][963]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2021.12.30-12.21.54:791][963]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.30-12.21.54:792][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.21.54:802][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.30-12.21.54:807][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.30-12.21.54:827][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.30-12.21.54:857][963]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002ED08390400), frame # 16963
+[2021.12.30-12.21.54:857][963]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002ECF7A9E000), frame # 16963
+[2021.12.30-12.21.54:859][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2021.12.30-12.21.54:884][964]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.12.30-12.22.01:437][495]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menus/Game_UI.Game_UI
