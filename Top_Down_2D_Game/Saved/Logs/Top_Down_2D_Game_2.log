@@ -1233,3 +1233,539 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.01.04-13.04.30:394][854]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Character_Test/MainCharacter.MainCharacter
 [2022.01.04-13.04.30:394][854]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Enemies/Test_Enemy/Enemy.Enemy
 [2022.01.04-13.04.30:394][854]LogContentValidation: Display: Validating WidgetBlueprint /Game/Menus/Game_UI.Game_UI
+[2022.01.04-13.08.38:729][729]BlueprintLog: New page: Compile MainCharacter
+[2022.01.04-13.08.39:197][729]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2022.01.04-13.08.42:256][883]MapCheck: New page: Map Check
+[2022.01.04-13.08.42:280][883]Cmd: MAP REBUILD ALLVISIBLE
+[2022.01.04-13.08.42:288][883]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.01.04-13.08.46:544][883]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=false
+[2022.01.04-13.08.46:693][883]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.01.04-13.08.46:693][883]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2022.01.04-13.08.46:693][883]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.01.04-13.08.46:693][883]LogNavigationDataBuild: Display:    Building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2022.01.04-13.08.46:713][883]LogNavigationDataBuild: Display: UNavigationSystemV1::Build total execution time: 0.02s
+[2022.01.04-13.08.46:753][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.01.04-13.08.46:761][883]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.01.04-13.08.46:765][883]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.01.04-13.08.46:769][883]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 50
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 49
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 48
+[2022.01.04-13.08.46:813][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2022.01.04-13.08.46:813][883]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.01.04-13.08.46:815][883]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 50
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 49
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 48
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 47
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 46
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 45
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 44
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 43
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 42
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 41
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 40
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 39
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 38
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 37
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 36
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 35
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 34
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 33
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 32
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 31
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 30
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 29
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 28
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 27
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 26
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 25
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 24
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 23
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 22
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 21
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 20
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 19
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 18
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 17
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 16
+[2022.01.04-13.08.49:994][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 15
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 14
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 13
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 12
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 11
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 10
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 9
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 2
+[2022.01.04-13.08.49:995][883]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2022.01.04-13.08.49:995][883]TextureStreamingBuild: Display: Compiling optional shaders took 3.237 seconds.
+[2022.01.04-13.08.50:101][883]LogLevel: Display: Export Material TexCoord Scales took 0.106 seconds.
+[2022.01.04-13.08.50:105][883]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2022.01.04-13.08.50:134][883]LogUObjectHash: Compacting FUObjectHashTables data took   3.43ms
+[2022.01.04-13.08.50:140][883]LightingResults: New page: Lighting Build - 4 Jan 2022, 13:08:50
+[2022.01.04-13.08.50:334][883]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.01.04-13.08.50:400][883]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.01.04-13.08.50:413][883]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.01.04-13.08.51:457][883]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.01.04-13.08.51:457][883]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4100
+[2022.01.04-13.08.58:617][883]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.01.04-13.08.58:619][883]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.01.04-13.08.58:619][883]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.01.04-13.08.58:619][883]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.01.04-13.08.58:619][883]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.01.04-13.08.58:619][883]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.01.04-13.08.58:935][883]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.01.04-13.08.58:935][883]MapCheck: New page: TheMap - 4 Jan 2022, 13:08:58
+[2022.01.04-13.08.58:935][883]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.01.04-13.08.58:935][883]MapCheck: Warning: Environment_Floor_9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.01.04-13.08.58:935][883]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.597ms to complete.
+[2022.01.04-13.08.58:937][883]LogEditorBuildUtils: Build time 0:16
+[2022.01.04-13.08.59:670][887]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2022.01.04-13.09.03:685][983]Job is a success!
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.016s
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:      BrickData (all levels) 0.4Mb
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:      Bricks at depth
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:          0: 1.0% covering 100.0% of volume
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:          1: 4.0% covering 6.2% of volume
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:          2: 94.9% covering 2.3% of volume
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:      Bricks in each level
+[2022.01.04-13.09.03:972][984]LogVolumetricLightmapImport:          TheMap 			 99 bricks 	 100.0% (Persistent Level)
+[2022.01.04-13.09.04:391][984]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2022.01.04-13.09.04:391][984]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2022.01.04-13.09.04:391][984]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2022.01.04-13.09.04:391][984]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2022.01.04-13.09.04:509][984]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2022.01.04-13.09.04:509][984]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 512X512)
+[2022.01.04-13.09.04:509][984]Lightmass on DARBOS-LAPTOP: 4.12 sec total, 286 ms importing, 63 ms setup, 198 ms photons, 2.73 sec processing, 0 ms extra exporting [1363/1363 mappings]. Threads: 30.0 sec total, 2.68 sec processing.
+[2022.01.04-13.09.04:514][984]LogStaticLightingSystem: TheMap_BuiltData storing lightmap data for 19 meshes in 2 LightmapResourceClusters (9.5 Meshes per cluster).
+[2022.01.04-13.09.04:565][984]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2022.01.04-13.09.04:638][984]LogStaticLightingSystem: Illumination: 14.4 sec (221 ms encoding lightmaps, 50 ms encoding shadowmaps)
+[2022.01.04-13.09.04:639][984]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.0 MB streaming, 2.0 MB non-streaming), 4 textures
+[2022.01.04-13.09.04:639][984]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.0 MB streaming, 0.3 MB non-streaming), 2 textures
+[2022.01.04-13.09.05:625][984]DumpUnbuiltLightIteractions
+[2022.01.04-13.09.05:625][984]Lights with unbuilt interactions: 0
+[2022.01.04-13.09.05:625][984]
+[2022.01.04-13.09.05:625][984]Primitives with unbuilt interactions: 0
+[2022.01.04-13.09.05:770][985]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.01.04-13.09.05:770][985]MapCheck: New page: TheMap - 4 Jan 2022, 13:09:05
+[2022.01.04-13.09.05:770][985]MapCheck: Warning: ProcGenFloor_BP_2 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.01.04-13.09.05:770][985]MapCheck: Warning: Environment_Floor_9 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2022.01.04-13.09.05:770][985]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 0.707ms to complete.
+[2022.01.04-13.09.06:530][ 14]LogSlate: Window 'Message Log' being destroyed
+[2022.01.04-13.09.06:556][ 14]LogSlate: Window 'Message Log' being destroyed
+[2022.01.04-13.10.58:192][666]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.10.58:252][666]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2022.01.04-13.11.05:456][ 55]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.11.05:504][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   3.92ms
+[2022.01.04-13.11.13:384][469]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.11.13:397][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.11.13:398][469]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:11:13)
+[2022.01.04-13.11.13:398][469]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.11.13:453][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055644s)
+[2022.01.04-13.11.13:454][469]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.11.13:454][469]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AF07BB3C00), frame # 130469
+[2022.01.04-13.11.13:454][469]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AF3F419F80), frame # 130469
+[2022.01.04-13.11.13:455][469]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2022.01.04-13.11.13:455][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.056930s)
+[2022.01.04-13.11.13:489][469]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.11.13:490][469]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.11.13:490][469]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.11.13:491][469]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.11.13:491][469]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.11.13:494][469]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.11.13:494][469]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.11.13:509][469]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.11.13:509][469]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.11.13:509][469]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.11.13:509][469]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.11.13:509][469]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.11.13:524][469]LogInit: FAudioDevice initialized.
+[2022.01.04-13.11.13:534][469]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.11.13:540][469]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.11.13
+[2022.01.04-13.11.13:540][469]LogWorld: Bringing up level for play took: 0.004539
+[2022.01.04-13.11.13:540][469]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.01.04-13.11.13:549][469]PIE: Server logged in
+[2022.01.04-13.11.13:550][469]PIE: Play in editor total start time 0.153 seconds.
+[2022.01.04-13.11.41:088][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.11.41:088][115]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.11.41:088][115]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.11.41:088][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.11.41:097][115]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.11.41:104][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.11.41:156][115]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.11.41:157][115]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AF3F419F80), frame # 132115
+[2022.01.04-13.11.41:157][115]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AF07BB3C00), frame # 132115
+[2022.01.04-13.11.41:161][115]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.01.04-13.11.41:242][116]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.01.04-13.11.42:549][183]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.11.42:564][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.11.42:564][183]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:11:42)
+[2022.01.04-13.11.42:564][183]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.11.42:621][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057002s)
+[2022.01.04-13.11.42:622][183]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.11.42:622][183]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AE98014C00), frame # 132183
+[2022.01.04-13.11.42:622][183]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AF3A50B740), frame # 132183
+[2022.01.04-13.11.42:623][183]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2022.01.04-13.11.42:623][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.058414s)
+[2022.01.04-13.11.42:657][183]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.11.42:658][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.11.42:658][183]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.11.42:658][183]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.11.42:661][183]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.11.42:661][183]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.11.42:674][183]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.11.42:675][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.11.42:675][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.11.42:675][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.11.42:675][183]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.11.42:689][183]LogInit: FAudioDevice initialized.
+[2022.01.04-13.11.42:700][183]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.11.42:705][183]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.11.42
+[2022.01.04-13.11.42:705][183]LogWorld: Bringing up level for play took: 0.004605
+[2022.01.04-13.11.42:705][183]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.01.04-13.11.42:712][183]PIE: Server logged in
+[2022.01.04-13.11.42:713][183]PIE: Play in editor total start time 0.149 seconds.
+[2022.01.04-13.11.54:831][908]LogCharacterMovement: Enemy_C_1 is stuck and failed to move! Velocity: X=-25.22 Y=-23.00 Z=0.00 Location: X=3849.52 Y=3662.60 Z=46.37 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:16.407 Actor:ProcGenFloor_BP_2 Component:Floor BoneName:None (0 other events since notify)
+[2022.01.04-13.12.16:337][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.12.16:338][197]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.12.16:338][197]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.12.16:338][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.12.16:349][197]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.12.16:355][197]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.12.16:404][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.12.16:406][197]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AF3A50B740), frame # 134197
+[2022.01.04-13.12.16:406][197]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AE98014C00), frame # 134197
+[2022.01.04-13.12.16:409][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2022.01.04-13.12.16:448][198]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.01.04-13.13.14:344][340]BlueprintLog: New page: Compile Enemy
+[2022.01.04-13.13.14:438][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.01.04-13.13.18:029][494]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.13.18:029][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.13.24:496][809]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Enemies/Worm/Worm.Worm
+[2022.01.04-13.13.48:949][984]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2022.01.04-13.13.49:524][984]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/TheMap_Auto5B4D5E782434BC8DCA2B04EAB1058A6E3.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Autosaves/Game/MapFiles/Maps/TheMap_Auto5.umap'
+[2022.01.04-13.13.49:633][984]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MapFiles/Maps/TheMap' took 0.729
+[2022.01.04-13.13.49:633][984]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.729
+[2022.01.04-13.13.49:634][984]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Character_Test/MainCharacter] ([1] browsable assets)...
+[2022.01.04-13.13.49:634][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Character_Test/MainCharacter]
+[2022.01.04-13.13.49:761][984]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/MainCharacter_Auto545D3A0B547B8FD7E33F0FCBB7DDFBF69.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Autosaves/Game/Blueprints/Character_Test/MainCharacter_Auto5.uasset'
+[2022.01.04-13.13.49:762][984]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Enemies/Test_Enemy/Enemy] ([1] browsable assets)...
+[2022.01.04-13.13.49:762][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Enemies/Test_Enemy/Enemy]
+[2022.01.04-13.13.49:820][984]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Enemy_Auto56AFEC4524C4FE248DDC811BC45C08852.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Autosaves/Game/Blueprints/Enemies/Test_Enemy/Enemy_Auto5.uasset'
+[2022.01.04-13.13.49:822][984]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Menus/Game_UI] ([1] browsable assets)...
+[2022.01.04-13.13.49:822][984]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menus/Game_UI]
+[2022.01.04-13.13.49:822][984]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menus/Game_UI" FILE="D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Autosaves/Game/Menus/Game_UI_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2022.01.04-13.13.49:870][984]LogSavePackage: Moving 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Game_UI_Auto531A3A467491A0CD160E42985E1AB98AD.tmp' to 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Autosaves/Game/Menus/Game_UI_Auto5.uasset'
+[2022.01.04-13.13.49:924][984]LogFileHelpers: Auto-saving content packages took 0.290
+[2022.01.04-13.14.03:856][747]BlueprintLog: New page: Compile Worm
+[2022.01.04-13.14.04:106][747]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2022.01.04-13.14.12:462][183]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.14.12:476][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.14.12:476][183]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:14:12)
+[2022.01.04-13.14.12:516][183]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.14.12:578][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062251s)
+[2022.01.04-13.14.12:579][183]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.14.12:579][183]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AF41DC3E00), frame # 139183
+[2022.01.04-13.14.12:579][183]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AE8F612AC0), frame # 139183
+[2022.01.04-13.14.12:579][183]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2022.01.04-13.14.12:579][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.063599s)
+[2022.01.04-13.14.12:622][183]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.14.12:623][183]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.14.12:624][183]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.14.12:624][183]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.14.12:624][183]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.14.12:624][183]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.14.12:628][183]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.14.12:628][183]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.14.12:646][183]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.14.12:647][183]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.14.12:647][183]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.14.12:647][183]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.14.12:647][183]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.14.12:664][183]LogInit: FAudioDevice initialized.
+[2022.01.04-13.14.12:671][183]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.14.12:676][183]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.14.12
+[2022.01.04-13.14.12:677][183]LogWorld: Bringing up level for play took: 0.004500
+[2022.01.04-13.14.12:677][183]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.01.04-13.14.12:685][183]PIE: Server logged in
+[2022.01.04-13.14.12:687][183]PIE: Play in editor total start time 0.212 seconds.
+[2022.01.04-13.14.42:297][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.14.42:297][951]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.14.42:297][951]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.14.42:297][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.14.42:305][951]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.14.42:310][951]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.14.42:360][951]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.14.42:361][951]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AE8F612AC0), frame # 140951
+[2022.01.04-13.14.42:361][951]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AF41DC3E00), frame # 140951
+[2022.01.04-13.14.42:365][951]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.01.04-13.14.42:397][952]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.01.04-13.15.48:224][543]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.15.48:284][543]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2022.01.04-13.15.50:656][658]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.15.50:672][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.15.50:672][658]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:15:50)
+[2022.01.04-13.15.50:672][658]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.15.50:729][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056925s)
+[2022.01.04-13.15.50:730][658]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.15.50:730][658]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AF2C113A00), frame # 142658
+[2022.01.04-13.15.50:730][658]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AEE6053B00), frame # 142658
+[2022.01.04-13.15.50:730][658]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2022.01.04-13.15.50:730][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.058148s)
+[2022.01.04-13.15.50:768][658]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.15.50:769][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.15.50:769][658]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.15.50:769][658]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.15.50:773][658]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.15.50:773][658]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.15.50:790][658]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.15.50:791][658]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.15.50:791][658]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.15.50:791][658]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.15.50:791][658]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.15.50:808][658]LogInit: FAudioDevice initialized.
+[2022.01.04-13.15.50:818][658]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.15.50:824][658]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.15.50
+[2022.01.04-13.15.50:824][658]LogWorld: Bringing up level for play took: 0.004804
+[2022.01.04-13.15.50:825][658]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.01.04-13.15.50:832][658]PIE: Server logged in
+[2022.01.04-13.15.50:832][658]PIE: Play in editor total start time 0.161 seconds.
+[2022.01.04-13.15.51:706][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.15.51:706][708]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.15.51:707][708]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.15.51:707][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.15.51:713][708]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.15.51:718][708]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.15.51:769][708]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.15.51:770][708]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AEE6053B00), frame # 142708
+[2022.01.04-13.15.51:771][708]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AF2C113A00), frame # 142708
+[2022.01.04-13.15.51:774][708]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2022.01.04-13.15.51:798][709]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.01.04-13.15.53:249][793]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.15.53:262][793]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.15.53:262][793]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:15:53)
+[2022.01.04-13.15.53:262][793]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.15.53:320][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057501s)
+[2022.01.04-13.15.53:321][793]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.15.53:321][793]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AECA126E00), frame # 142793
+[2022.01.04-13.15.53:321][793]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AE1DF0FD80), frame # 142793
+[2022.01.04-13.15.53:321][793]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2022.01.04-13.15.53:321][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.058690s)
+[2022.01.04-13.15.53:357][793]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.15.53:359][793]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.15.53:359][793]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.15.53:359][793]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.15.53:362][793]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.15.53:362][793]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.15.53:375][793]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.15.53:376][793]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.15.53:376][793]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.15.53:376][793]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.15.53:377][793]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.15.53:391][793]LogInit: FAudioDevice initialized.
+[2022.01.04-13.15.53:399][793]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.15.53:404][793]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.15.53
+[2022.01.04-13.15.53:404][793]LogWorld: Bringing up level for play took: 0.004099
+[2022.01.04-13.15.53:404][793]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.01.04-13.15.53:409][793]PIE: Server logged in
+[2022.01.04-13.15.53:410][793]PIE: Play in editor total start time 0.148 seconds.
+[2022.01.04-13.15.55:486][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.15.55:487][915]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.15.55:487][915]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.15.55:487][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.15.55:497][915]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.15.55:503][915]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.15.55:536][915]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.15.55:554][915]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AE1DF0FD80), frame # 142915
+[2022.01.04-13.15.55:554][915]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AECA126E00), frame # 142915
+[2022.01.04-13.15.55:558][915]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2022.01.04-13.15.55:583][916]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.01.04-13.16.11:283][660]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.16.11:331][660]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2022.01.04-13.16.13:063][737]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.16.13:079][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.16.13:079][737]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:16:13)
+[2022.01.04-13.16.13:079][737]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.13:137][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057142s)
+[2022.01.04-13.16.13:138][737]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.16.13:138][737]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AEC9CEF400), frame # 143737
+[2022.01.04-13.16.13:138][737]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AECF971D00), frame # 143737
+[2022.01.04-13.16.13:138][737]LogPlayLevel: PIE: World Init took: (0.000988s)
+[2022.01.04-13.16.13:138][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.058289s)
+[2022.01.04-13.16.13:174][737]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.16.13:176][737]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.16.13:176][737]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.16.13:177][737]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.16.13:177][737]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.16.13:179][737]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.16.13:179][737]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.16.13:192][737]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.16.13:193][737]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.16.13:193][737]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.16.13:193][737]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.16.13:193][737]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.16.13:207][737]LogInit: FAudioDevice initialized.
+[2022.01.04-13.16.13:216][737]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.16.13:222][737]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.16.13
+[2022.01.04-13.16.13:222][737]LogWorld: Bringing up level for play took: 0.004353
+[2022.01.04-13.16.13:222][737]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.01.04-13.16.13:229][737]PIE: Server logged in
+[2022.01.04-13.16.13:230][737]PIE: Play in editor total start time 0.151 seconds.
+[2022.01.04-13.16.14:047][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.14:047][783]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.14:047][783]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.16.14:047][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.14:056][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.16.14:061][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.14:111][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.14:112][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AECF971D00), frame # 143783
+[2022.01.04-13.16.14:112][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AEC9CEF400), frame # 143783
+[2022.01.04-13.16.14:116][783]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2022.01.04-13.16.14:139][784]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.01.04-13.16.23:611][204]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.16.23:659][204]LogUObjectHash: Compacting FUObjectHashTables data took   4.63ms
+[2022.01.04-13.16.27:410][381]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.16.27:425][381]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.16.27:426][381]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:16:27)
+[2022.01.04-13.16.27:426][381]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.27:485][381]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059470s)
+[2022.01.04-13.16.27:486][381]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.16.27:486][381]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AE832AC400), frame # 144381
+[2022.01.04-13.16.27:486][381]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AF3A5602C0), frame # 144381
+[2022.01.04-13.16.27:486][381]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2022.01.04-13.16.27:486][381]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.060679s)
+[2022.01.04-13.16.27:523][381]LogUObjectHash: Compacting FUObjectHashTables data took   4.13ms
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.16.27:525][381]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.16.27:525][381]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.16.27:525][381]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.16.27:528][381]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.16.27:528][381]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.16.27:541][381]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.16.27:541][381]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.16.27:541][381]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.16.27:541][381]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.16.27:542][381]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.16.27:556][381]LogInit: FAudioDevice initialized.
+[2022.01.04-13.16.27:561][381]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.16.27:566][381]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.16.27
+[2022.01.04-13.16.27:567][381]LogWorld: Bringing up level for play took: 0.004645
+[2022.01.04-13.16.27:567][381]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.01.04-13.16.27:574][381]PIE: Server logged in
+[2022.01.04-13.16.27:576][381]PIE: Play in editor total start time 0.151 seconds.
+[2022.01.04-13.16.28:567][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.28:567][438]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.28:567][438]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.16.28:567][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.28:577][438]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.16.28:583][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.28:633][438]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.28:634][438]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AF3A5602C0), frame # 144438
+[2022.01.04-13.16.28:634][438]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AE832AC400), frame # 144438
+[2022.01.04-13.16.28:637][438]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2022.01.04-13.16.28:661][439]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.01.04-13.16.33:326][580]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.16.33:371][580]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2022.01.04-13.16.37:520][785]LogTemp: Repeating last play command: Selected Viewport
+[2022.01.04-13.16.37:535][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.01.04-13.16.37:535][785]PIE: New page: PIE session: TheMap (4 Jan 2022, 13:16:37)
+[2022.01.04-13.16.37:535][785]LogPlayLevel: Creating play world package: /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.37:590][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055087s)
+[2022.01.04-13.16.37:591][785]LogAIModule: Creating AISystem for world TheMap
+[2022.01.04-13.16.37:591][785]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001AECA125C00), frame # 144785
+[2022.01.04-13.16.37:591][785]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001AF2C3A9580), frame # 144785
+[2022.01.04-13.16.37:591][785]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2022.01.04-13.16.37:591][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MapFiles/Maps/TheMap.TheMap to /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap (0.056151s)
+[2022.01.04-13.16.37:629][785]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.04-13.16.37:631][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.04-13.16.37:631][785]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.04-13.16.37:631][785]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.04-13.16.37:634][785]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.04-13.16.37:634][785]LogAudioMixer: Display: 1: FrontRight
+[2022.01.04-13.16.37:648][785]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2022.01.04-13.16.37:649][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.04-13.16.37:649][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.04-13.16.37:649][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.04-13.16.37:649][785]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.04-13.16.37:662][785]LogInit: FAudioDevice initialized.
+[2022.01.04-13.16.37:672][785]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.04-13.16.37:677][785]LogWorld: Bringing World /Game/MapFiles/Maps/UEDPIE_0_TheMap.TheMap up for play (max tick rate 60) at 2022.01.04-13.16.37
+[2022.01.04-13.16.37:678][785]LogWorld: Bringing up level for play took: 0.004609
+[2022.01.04-13.16.37:678][785]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.01.04-13.16.37:685][785]PIE: Server logged in
+[2022.01.04-13.16.37:686][785]PIE: Play in editor total start time 0.152 seconds.
+[2022.01.04-13.16.38:366][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.38:366][819]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/UEDPIE_0_TheMap
+[2022.01.04-13.16.38:366][819]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.04-13.16.38:367][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.38:374][819]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.01.04-13.16.38:379][819]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.04-13.16.38:429][819]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.04-13.16.38:430][819]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001AF2C3A9580), frame # 144819
+[2022.01.04-13.16.38:430][819]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001AECA125C00), frame # 144819
+[2022.01.04-13.16.38:434][819]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.01.04-13.16.38:457][820]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.01.04-13.17.10:368][226]BlueprintLog: New page: Compile Game_UI
+[2022.01.04-13.17.10:418][226]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
