@@ -1,8 +1,8 @@
-﻿Log file open, 01/13/22 16:46:16
+﻿Log file open, 01/14/22 15:16:01
 LogInit: Display: Running engine for game: Top_Down_2D_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.328170
+LogStats: Stats thread started at 0.278726
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -148,7 +148,7 @@ LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line:  /Game/MapFiles/Maps/TheMap -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
+LogInit: Command Line:  /Game/MapFiles/Maps/Main_Menu -game -PIEVIACONSOLE -Multiprocess GameUserSettingsINI=D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/PIEGameUserSettings0.ini -MultiprocessSaveConfig -MultiprocessOSS -messaging -SessionName="Play in Standalone Game" -windowed -ResX=1280 -ResY=720
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
@@ -198,269 +198,907 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.01.13-16.46.16:948][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2022.01.13-16.46.16:948][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2022.01.13-16.46.16:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:948][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2022.01.13-16.46.16:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:948][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:948][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2022.01.13-16.46.16:948][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2022.01.13-16.46.16:949][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:949][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:952][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.01.13-16.46.16:952][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.01.13-16.46.16:953][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.01.13-16.46.16:954][  0]LogInit: Selected Device Profile: [Windows]
-[2022.01.13-16.46.16:954][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2022.01.13-16.46.16:954][  0]LogHAL: Display: Platform has ~ 16 GB [17032126464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2022.01.13-16.46.16:954][  0]LogInit: Going up to parent DeviceProfile []
-[2022.01.13-16.46.16:954][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2022.01.13-16.46.16:954][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2022.01.13-16.46.16:955][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2022.01.13-16.46.16:956][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2022.01.13-16.46.16:957][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2022.01.13-16.46.16:959][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2022.01.13-16.46.16:959][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2022.01.13-16.46.16:960][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2022.01.13-16.46.16:960][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
-[2022.01.13-16.46.16:960][  0]LogInit: Computer: DARBOS-LAPTOP
-[2022.01.13-16.46.16:960][  0]LogInit: User: muscl
-[2022.01.13-16.46.16:960][  0]LogInit: CPU Page size=4096, Cores=6
-[2022.01.13-16.46.16:960][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2022.01.13-16.46.16:960][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2022.01.13-16.46.16:960][  0]LogMemory: Platform Memory Stats for Windows
-[2022.01.13-16.46.16:960][  0]LogMemory: Process Physical Memory: 116.86 MB used, 116.87 MB peak
-[2022.01.13-16.46.16:960][  0]LogMemory: Process Virtual Memory: 106.95 MB used, 106.95 MB peak
-[2022.01.13-16.46.16:960][  0]LogMemory: Physical Memory: 8781.68 MB used,  7461.42 MB free, 16243.10 MB total
-[2022.01.13-16.46.16:960][  0]LogMemory: Virtual Memory: 5176.64 MB used,  134212552.00 MB free, 134217728.00 MB total
-[2022.01.13-16.46.16:969][  0]LogWindows: WindowsPlatformFeatures enabled
-[2022.01.13-16.46.17:071][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2022.01.13-16.46.17:071][  0]LogInit: Using OS detected language (en-GB).
-[2022.01.13-16.46.17:071][  0]LogInit: Using OS detected locale (en-GB).
-[2022.01.13-16.46.17:076][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:784][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:788][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.14-15.16.01:788][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.14-15.16.01:789][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.01.14-15.16.01:790][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.14-15.16.01:790][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.01.14-15.16.01:790][  0]LogHAL: Display: Platform has ~ 16 GB [17032126464 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.01.14-15.16.01:790][  0]LogInit: Going up to parent DeviceProfile []
+[2022.01.14-15.16.01:790][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.14-15.16.01:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Scalability.ini]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2022.01.14-15.16.01:791][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.01.14-15.16.01:792][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.01.14-15.16.01:792][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.01.14-15.16.01:792][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.01.14-15.16.01:792][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Config/Windows/Engine.ini]
+[2022.01.14-15.16.01:793][  0]LogInit: Computer: DARBOS-LAPTOP
+[2022.01.14-15.16.01:793][  0]LogInit: User: muscl
+[2022.01.14-15.16.01:793][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.01.14-15.16.01:793][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.01.14-15.16.01:793][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.01.14-15.16.01:793][  0]LogMemory: Platform Memory Stats for Windows
+[2022.01.14-15.16.01:793][  0]LogMemory: Process Physical Memory: 117.11 MB used, 117.12 MB peak
+[2022.01.14-15.16.01:793][  0]LogMemory: Process Virtual Memory: 119.26 MB used, 119.26 MB peak
+[2022.01.14-15.16.01:793][  0]LogMemory: Physical Memory: 9835.02 MB used,  6408.08 MB free, 16243.10 MB total
+[2022.01.14-15.16.01:793][  0]LogMemory: Virtual Memory: 5188.83 MB used,  134212536.00 MB free, 134217728.00 MB total
+[2022.01.14-15.16.01:800][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.01.14-15.16.01:873][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.01.14-15.16.01:873][  0]LogInit: Using OS detected language (en-GB).
+[2022.01.14-15.16.01:873][  0]LogInit: Using OS detected locale (en-GB).
+[2022.01.14-15.16.01:876][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2022.01.14-15.16.02:253][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.01.14-15.16.02:253][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.01.14-15.16.02:338][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.01.14-15.16.02:338][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.01.14-15.16.02:338][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.01.14-15.16.02:338][  0]LogD3D11RHI: D3D11 adapters:
+[2022.01.14-15.16.02:510][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2022.01.14-15.16.02:510][  0]LogD3D11RHI:       6052/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2022.01.14-15.16.02:562][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2022.01.14-15.16.02:562][  0]LogD3D11RHI:       128/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2022.01.14-15.16.02:565][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.01.14-15.16.02:565][  0]LogD3D11RHI:       0/0/8121 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.01.14-15.16.02:565][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.01.14-15.16.02:575][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.01.14-15.16.02:575][  0]LogD3D11RHI:     GPU DeviceId: 0x1c20 (for the marketing name, search the web for "GPU Device Id")
+[2022.01.14-15.16.02:575][  0]LogWindows: EnumDisplayDevices:
+[2022.01.14-15.16.02:575][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2022.01.14-15.16.02:575][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2022.01.14-15.16.02:576][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2022.01.14-15.16.02:576][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2022.01.14-15.16.02:577][  0]LogD3D11RHI:   Driver Version: 461.40 (internal:27.21.14.6140, unified:461.40)
+[2022.01.14-15.16.02:577][  0]LogD3D11RHI:      Driver Date: 1-22-2021
+[2022.01.14-15.16.02:577][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2022.01.14-15.16.02:684][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.01.14-15.16.02:684][  0]LogD3D11RHI: Async texture creation enabled
+[2022.01.14-15.16.02:685][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.01.14-15.16.02:710][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.01.14-15.16.03:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.01.14-15.16.03:159][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.01.14-15.16.03:172][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.01.14-15.16.03:182][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.01.14-15.16.03:182][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.01.14-15.16.03:191][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.01.14-15.16.03:260][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Intermediate/Shaders/WorkingDirectory/17128/).
+[2022.01.14-15.16.03:261][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/muscl/AppData/Local/Temp/UnrealShaderWorkingDir/B307AC9049A4FC51072C75890102B4DB/'.
+[2022.01.14-15.16.03:261][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.01.14-15.16.03:261][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.01.14-15.16.03:261][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.01.14-15.16.04:114][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: Loaded boot cache 0.07s 91MB C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/muscl/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.14-15.16.04:180][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.01.14-15.16.04:192][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.01.14-15.16.04:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.14-15.16.04:192][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.01.14-15.16.04:193][  0]LogDerivedDataCache: Using Local data cache path C:/Users/muscl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.01.14-15.16.04:193][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.01.14-15.16.04:193][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.01.14-15.16.04:243][  0]LogSlate: Using FreeType 2.10.0
+[2022.01.14-15.16.04:243][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.01.14-15.16.04:460][  0]LogInit: Using OS detected language (en-GB).
+[2022.01.14-15.16.04:460][  0]LogInit: Using OS detected locale (en-GB).
+[2022.01.14-15.16.04:460][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the language.
+[2022.01.14-15.16.04:460][  0]LogTextLocalizationManager: No localization for 'en-GB' exists, so 'en' will be used for the locale.
+[2022.01.14-15.16.04:460][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.01.14-15.16.04:460][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2022.01.14-15.16.04:467][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2022.01.14-15.16.04:474][  0]LogAssetRegistry: FAssetRegistry took 0.0046 seconds to start up
+[2022.01.14-15.16.04:721][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.001101 seconds
+[2022.01.14-15.16.04:775][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.14-15.16.04:922][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.01.14-15.16.04:922][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.01.14-15.16.04:922][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.01.14-15.16.04:922][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.01.14-15.16.04:922][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.01.14-15.16.04:942][  0]LogNetVersion: Top_Down_2D_Game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2660664877)
+[2022.01.14-15.16.05:251][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000016D2C5198C0), frame # 0
+[2022.01.14-15.16.05:252][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016D2F718180), frame # 0
+[2022.01.14-15.16.05:253][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016D2F72DC00), frame # 0
+[2022.01.14-15.16.05:376][  0]LogCollectionManager: Loaded 0 collections in 0.001991 seconds
+[2022.01.14-15.16.05:378][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Saved/Collections/' took 0.00s
+[2022.01.14-15.16.05:378][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Developers/muscl/Collections/' took 0.00s
+[2022.01.14-15.16.05:378][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2022.01.14-15.16.05:444][  0]LogFileCache: Scanning file cache for directory 'D:/MyGameProjects/2122-yr1-team-omegalulv2/Top_Down_2D_Game/Content/Collections/' took 0.00s
+[2022.01.14-15.16.05:444][  0]LogMoviePlayer: Initializing movie player
+[2022.01.14-15.16.05:651][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.01.14-15.16.05:655][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.01.14-15.16.05:655][  0]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.05:655][  0]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.05:655][  0]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.05:700][  0]SourceControl: Source control is disabled
+[2022.01.14-15.16.05:701][  0]SourceControl: Source control is disabled
+[2022.01.14-15.16.05:708][  0]SourceControl: Source control is disabled
+[2022.01.14-15.16.05:847][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.01.14-15.16.05:865][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.14-15.16.05:865][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.14-15.16.05:917][  0]LogOcInput: OculusInput pre-init called
+[2022.01.14-15.16.05:932][  0]LogUObjectArray: 19064 objects as part of root set at end of initial load.
+[2022.01.14-15.16.05:932][  0]LogUObjectAllocator: 5015424 out of 0 bytes used by permanent object pool.
+[2022.01.14-15.16.05:932][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.01.14-15.16.05:979][  0]LogEngine: Initializing Engine...
+[2022.01.14-15.16.05:981][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.01.14-15.16.05:981][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.01.14-15.16.05:983][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.01.14-15.16.06:110][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.14-15.16.06:116][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.14-15.16.06:116][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.14-15.16.06:117][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.14-15.16.06:117][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 2: FrontCenter
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 3: LowFrequency
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 4: BackLeft
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 5: BackRight
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 6: SideLeft
+[2022.01.14-15.16.06:137][  0]LogAudioMixer: Display: 7: SideRight
+[2022.01.14-15.16.06:189][  0]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2022.01.14-15.16.06:196][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.14-15.16.06:198][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.14-15.16.06:198][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.14-15.16.06:200][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.14-15.16.06:201][  0]LogInit: FAudioDevice initialized.
+[2022.01.14-15.16.06:203][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.01.14-15.16.06:205][  0]LogInit: Texture streaming: Enabled
+[2022.01.14-15.16.06:274][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-15.16.06:275][  0]LogInit: Display: Game Engine Initialized.
+[2022.01.14-15.16.06:275][  0]LogNiagaraEditor: Warning: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2022.01.14-15.16.06:305][  0]LogInit: Display: Starting Game.
+[2022.01.14-15.16.06:305][  0]LogNet: Browse: /Game/MapFiles/Maps/Main_Menu?Name=Player
+[2022.01.14-15.16.06:305][  0]LogLoad: LoadMap: /Game/MapFiles/Maps/Main_Menu?Name=Player
+[2022.01.14-15.16.06:305][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2022.01.14-15.16.06:306][  0]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.06:308][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-15.16.06:308][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-15.16.06:322][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.01.14-15.16.06:360][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2022.01.14-15.16.06:360][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016D34B05200), frame # 0
+[2022.01.14-15.16.06:360][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016D34ACB9C0), frame # 0
+[2022.01.14-15.16.06:360][  0]LogLoad: Game class is 'Main_Menu_GameMode_C'
+[2022.01.14-15.16.06:363][  0]LogWorld: Bringing World /Game/MapFiles/Maps/Main_Menu.Main_Menu up for play (max tick rate 0) at 2022.01.14-15.16.06
+[2022.01.14-15.16.06:363][  0]LogWorld: Bringing up level for play took: 0.001011
+[2022.01.14-15.16.06:364][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2022.01.14-15.16.06:367][  0]LogLoad: Took 0.061684 seconds to LoadMap(/Game/MapFiles/Maps/Main_Menu)
+[2022.01.14-15.16.06:408][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2022.01.14-15.16.06:408][  0]LogLoad: (Engine Initialization) Total time: 7.18 seconds
+[2022.01.14-15.16.06:408][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.01.14-15.16.06:439][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.01.14-15.16.06:442][  0]LogAudio: Warning: Detected orphaned looping sound 'Starter_Music_Cue'.
+[2022.01.14-15.16.06:442][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-15.16.07:569][218]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.07:569][218]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.07:569][218]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.07:585][218]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.09:583][815]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.09:583][815]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.09:583][815]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.09:588][815]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.10:524][ 22]LogPackageName: SearchForPackageOnDisk took   0.143s to resolve TheMap.umap.
+[2022.01.14-15.16.10:656][ 22]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve TheMap.umap.
+[2022.01.14-15.16.10:656][ 22]LogNet: Browse: /Game/MapFiles/Maps/TheMap
+[2022.01.14-15.16.10:656][ 22]LogLoad: LoadMap: /Game/MapFiles/Maps/TheMap
+[2022.01.14-15.16.10:656][ 22]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/Main_Menu
+[2022.01.14-15.16.10:659][ 22]LogWorld: UWorld::CleanupWorld for Main_Menu, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-15.16.10:659][ 22]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-15.16.10:708][ 22]LogAudio: Display: Waited 48.710999 ms for audio thread.
+[2022.01.14-15.16.10:731][ 22]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016D34B05200), frame # 1022
+[2022.01.14-15.16.10:731][ 22]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016D34ACB9C0), frame # 1022
+[2022.01.14-15.16.10:732][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.01.14-15.16.11:196][ 22]LogAIModule: Creating AISystem for world TheMap
+[2022.01.14-15.16.11:197][ 22]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000016D22ABF200), frame # 1022
+[2022.01.14-15.16.11:197][ 22]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000016D3458CA40), frame # 1022
+[2022.01.14-15.16.11:197][ 22]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.01.14-15.16.11:210][ 22]LogWorld: Bringing World /Game/MapFiles/Maps/TheMap.TheMap up for play (max tick rate 0) at 2022.01.14-15.16.11
+[2022.01.14-15.16.11:210][ 22]LogWorld: Bringing up level for play took: 0.011110
+[2022.01.14-15.16.11:217][ 22]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.01.14-15.16.11:219][ 22]LogLoad: Took 0.562836 seconds to LoadMap(/Game/MapFiles/Maps/TheMap)
+[2022.01.14-15.16.11:225][ 23]LogAudio: Warning: Detected orphaned looping sound 'Starter_Background_Cue'.
+[2022.01.14-15.16.11:493][ 24]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.11:493][ 24]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.11:493][ 24]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.11:498][ 24]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.13:407][437]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.13:407][437]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.13:407][437]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.13:411][437]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.15:419][877]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.15:419][877]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.15:419][877]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.15:423][877]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.17:436][307]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.17:436][307]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.17:436][307]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.17:441][307]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.19:350][774]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.19:350][774]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.19:350][774]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.19:353][774]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.21:360][274]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.21:360][274]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.21:360][274]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.21:363][274]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.23:376][750]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.23:376][750]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.23:376][750]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.23:379][750]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.25:389][203]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.25:389][203]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.25:389][203]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.25:392][203]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.27:407][589]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.27:407][589]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.27:407][589]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.27:411][589]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.29:421][993]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.29:421][993]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.29:421][993]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.29:424][993]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.31:435][401]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.31:435][401]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.31:435][401]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.31:439][401]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.33:448][822]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.33:448][822]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.33:448][822]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.33:451][822]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.35:463][271]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.35:463][271]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.35:463][271]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.35:468][271]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.37:379][722]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.37:379][722]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.37:379][722]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.37:382][722]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.39:391][196]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.39:391][196]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.39:392][196]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.39:396][196]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.41:405][664]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.41:405][664]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.41:405][664]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.41:412][664]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.43:418][111]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.43:418][111]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.43:418][111]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.43:423][111]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.45:431][558]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.45:431][558]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.45:432][558]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.45:437][558]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.47:444][  4]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.47:444][  4]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.47:444][  4]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.47:447][  4]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.49:457][432]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.49:457][432]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.49:457][432]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.49:460][432]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.51:472][866]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.51:472][866]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.51:472][866]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.51:476][866]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.53:483][265]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.53:483][265]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.53:483][265]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.53:487][265]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.55:500][648]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.55:500][648]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.55:500][648]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.55:505][648]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.57:514][ 15]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.57:514][ 15]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.57:514][ 15]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.57:520][ 15]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.16.59:428][377]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.16.59:428][377]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.16.59:428][377]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.16.59:433][377]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.01:445][782]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.01:445][782]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.01:445][782]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.01:449][782]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.03:458][258]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.03:458][258]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.03:458][258]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.03:462][258]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.05:470][732]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.05:470][732]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.05:470][732]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.05:475][732]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.07:486][199]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.07:486][199]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.07:486][199]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.07:490][199]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.09:499][670]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.09:499][670]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.09:499][670]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.09:504][670]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.11:515][153]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.11:515][153]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.11:515][153]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.11:521][153]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.13:531][611]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.13:531][611]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.13:531][611]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.13:537][611]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.13:891][643]LogCharacterMovement: Flesh_Crab_C_4 is stuck and failed to move! Velocity: X=-6.24 Y=-4.56 Z=0.00 Location: X=3943.00 Y=3749.00 Z=2.00 Normal: X=0.00 Y=0.00 Z=1.00 PenetrationDepth:60.773 Actor:ProcGenFloor_BP_2 Component:Floor BoneName:None (0 other events since notify)
+[2022.01.14-15.17.14:057][675]LogCharacterMovement: Worm_C_6 is stuck and failed to move! Velocity: X=-0.32 Y=13.42 Z=0.00 Location: X=2258.00 Y=790.00 Z=2.00 Normal: X=0.00 Y=-0.98 Z=0.19 PenetrationDepth:52.534 Actor:ProcGenFloor_BP_2 Component:Floor BoneName:None (0 other events since notify)
+[2022.01.14-15.17.15:442][  9]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.15:443][  9]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.15:443][  9]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.15:446][  9]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.17:460][415]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.17:460][415]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.17:460][415]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.17:465][415]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.19:478][815]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.19:478][815]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.19:479][815]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.19:484][815]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.21:490][224]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.21:490][224]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.21:490][224]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.21:493][224]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.23:502][684]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.23:502][684]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.23:502][684]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.23:505][684]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.25:516][127]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.25:516][127]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.25:516][127]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.25:519][127]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.27:530][518]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.27:530][518]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.27:530][518]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.27:534][518]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.29:545][915]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.29:545][915]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.29:545][915]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.29:550][915]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.31:558][328]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.31:558][328]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.31:558][328]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.31:563][328]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.33:571][724]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.33:571][724]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.33:571][724]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.33:575][724]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.35:484][151]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.35:484][151]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.35:484][151]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.35:488][151]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.37:499][629]FUdpSocketBuilder: Failed to subscribe UdpMessageMulticastSocket to multicast group 230.0.0.1 on interface 0.0.0.0
+[2022.01.14-15.17.37:499][629]FUdpSocketBuilder: Failed to create and initialize socket UdpMessageMulticastSocket (last error: 0)
+[2022.01.14-15.17.37:499][629]LogUdpMessaging: Warning: StartTransport failed to create multicast socket on 0.0.0.0:0, joined to 230.0.0.1:6666 with TTL 1
+[2022.01.14-15.17.37:504][630]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2022.01.14-15.17.38:972][  3]Closing by request
+[2022.01.14-15.17.38:972][  3]LogWindows: FPlatformMisc::RequestExit(0)
+[2022.01.14-15.17.38:972][  3]LogCore: Engine exit requested (reason: Win RequestExit)
+[2022.01.14-15.17.38:975][  4]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.01.14-15.17.38:977][  4]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2022.01.14-15.17.39:023][  4]LogInit: Display: PreExit Game.
+[2022.01.14-15.17.39:551][  4]LogWorld: BeginTearingDown for /Game/MapFiles/Maps/TheMap
+[2022.01.14-15.17.39:551][  4]LogWorld: UWorld::CleanupWorld for TheMap, bSessionEnded=true, bCleanupResources=true
+[2022.01.14-15.17.39:552][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.14-15.17.40:060][  4]LogSlate: Window 'Top_Down_2D_Game (64-bit Development PCD3D_SM5) ' being destroyed
+[2022.01.14-15.17.40:062][  4]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.01.14-15.17.40:087][  4]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2022.01.14-15.17.40:160][  4]LogExit: Preparing to exit.
+[2022.01.14-15.17.40:215][  4]LogMoviePlayer: Shutting down movie player
+[2022.01.14-15.17.40:331][  4]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.14-15.17.40:335][  4]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.01.14-15.17.40:340][  4]LogExit: Game engine shut down
+[2022.01.14-15.17.40:353][  4]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000016D2C5198C0), frame # 20004
+[2022.01.14-15.17.40:354][  4]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016D2F718180), frame # 20004
+[2022.01.14-15.17.40:354][  4]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016D2F72DC00), frame # 20004
+[2022.01.14-15.17.40:362][  4]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000016D22ABF200), frame # 20004
+[2022.01.14-15.17.40:362][  4]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000016D3458CA40), frame # 20004
+[2022.01.14-15.17.40:393][  4]LogExit: Object subsystem successfully closed.
+[2022.01.14-15.17.40:433][  4]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (504)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module SequenceRecorder (502)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module AutomationController (500)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module AutomationWorker (498)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module Voice (496)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module AIModule (494)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module GameplayDebugger (493)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module AITestSuite (491)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module NavigationSystem (489)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module OculusMR (486)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (482)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module WebMMedia (480)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (478)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (476)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (474)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (472)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (470)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module PlanarCut (468)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (462)
+[2022.01.14-15.17.40:464][  4]LogModuleManager: Shutting down and abandoning module LiveCoding (460)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module LevelSequence (458)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (456)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module MovieScene (454)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (452)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module PortalServices (450)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module PortalRpc (448)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module MessagingRpc (446)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (444)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module AudioMixerCore (443)
+[2022.01.14-15.17.40:465][  4]LogModuleManager: Shutting down and abandoning module ProfilerService (440)
+[2022.01.14-15.17.40:653][  4]LogModuleManager: Shutting down and abandoning module TaskGraph (438)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module Synthesis (436)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (434)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module OculusInput (432)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (430)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module GooglePAD (428)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module EditableMesh (426)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (424)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module CableComponent (422)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AudioCapture (420)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (419)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AssetTags (416)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (414)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (412)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AppleImageUtils (410)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module AndroidPermission (408)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (406)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (404)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module TemplateSequence (402)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (400)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (398)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (396)
+[2022.01.14-15.17.40:654][  4]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (395)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module ImgMedia (390)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (388)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (386)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (384)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (382)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (380)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (378)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module MeshConversion (376)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module DynamicMesh (374)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (372)
+[2022.01.14-15.17.40:659][  4]LogModuleManager: Shutting down and abandoning module GeometricObjects (370)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (368)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (367)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (363)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCache (360)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (359)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module ChaosNiagara (356)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module ChaosCloth (354)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module BlastCore (352)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module BackChannel (350)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module AutomationUtils (348)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (346)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module HotReload (345)
+[2022.01.14-15.17.40:660][  4]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (342)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module UObjectPlugin (340)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (338)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (336)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (334)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module SourceControl (333)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (330)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (328)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module SoundFields (326)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module SignificanceManager (324)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (322)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (320)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (316)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module ActorSequence (314)
+[2022.01.14-15.17.40:661][  4]LogModuleManager: Shutting down and abandoning module UdpMessaging (312)
+[2022.01.14-15.17.40:762][  4]LogModuleManager: Shutting down and abandoning module TcpMessaging (310)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (308)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (306)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (304)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (302)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (300)
+[2022.01.14-15.17.40:862][  4]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (298)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (296)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (294)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (292)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapController (290)
+[2022.01.14-15.17.40:862][  4]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (288)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module MagicLeapAR (286)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module AugmentedReality (285)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (282)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module Niagara (280)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module SignalProcessing (279)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module NiagaraEditor (277)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module NiagaraCore (274)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module FacialAnimation (270)
+[2022.01.14-15.17.40:862][  4]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module TreeMap (267)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module AnimationSharing (264)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (262)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module Paper2D (260)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (258)
+[2022.01.14-15.17.40:863][  4]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (256)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (254)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module PacketHandler (252)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (250)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (248)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module MediaAssets (246)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module Overlay (244)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module OverlayEditor (243)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module VREditor (240)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module StringTableEditor (238)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (236)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (234)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module FunctionalTesting (232)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (230)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module UMG (228)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module UMGEditor (227)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module MessageLog (223)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module MaterialEditor (221)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module ContentBrowser (220)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (219)
+[2022.01.14-15.17.40:864][  4]LogModuleManager: Shutting down and abandoning module CollectionManager (217)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (216)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module SlateReflector (208)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module Slate (206)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module SlateCore (204)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (202)
+[2022.01.14-15.17.40:865][  4]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module UnrealEd (198)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module Messaging (194)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (192)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (190)
+[2022.01.14-15.17.40:866][  4]LogModuleManager: Shutting down and abandoning module XAudio2 (188)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module Networking (186)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module Core (184)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MovieSceneTools (182)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module KismetCompiler (180)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MeshBuilder (178)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MeshUtilities (176)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (175)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (174)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (173)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (171)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (169)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (158)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (156)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2022.01.14-15.17.40:867][  4]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (119)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (117)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (115)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (113)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module InputCore (110)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module Settings (108)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2022.01.14-15.17.40:868][  4]LogHMD: Freeing OpenVRDLLHandle.
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.01.14-15.17.40:868][  4]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2022.01.14-15.17.40:869][  4]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2022.01.14-15.17.40:869][  4]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2022.01.14-15.17.40:897][  4]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2022.01.14-15.17.40:919][  4]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2022.01.14-15.17.40:920][  4]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module Media (61)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2022.01.14-15.17.40:922][  4]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2022.01.14-15.17.40:923][  4]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2022.01.14-15.17.40:924][  4]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2022.01.14-15.17.40:952][  4]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2022.01.14-15.17.40:952][  4]LogD3D11RHI: Shutdown
+[2022.01.14-15.17.40:952][  4]LogD3D11RHI: CleanupD3DDevice
+[2022.01.14-15.17.40:965][  4]LogExit: Exiting.
+[2022.01.14-15.17.40:976][  4]Log file closed, 01/14/22 15:17:40
